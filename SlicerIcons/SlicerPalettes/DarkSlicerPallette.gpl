@@ -1,0 +1,53 @@
+GIMP Palette
+Name: DarkSlicerPallette.gpl
+#
+ 50  50  50 #323232	BackgroundGrey
+220 220 230 #DCDCE6	TextAndStroke
+102 102 102 #666666	TextAndStroke-Disabled
+194 194	245 #c2c2f5	LightBlue
+ 95  95	 95 #5f5f5f	LightBlue-Disabled
+168 168 203 #A8A8CB	MediumBlue
+ 77  77  91 #4A4A4A	MediumBlue-Disabled
+113 113 158 #71719E	DarkBlue
+ 58  58  58 #3A3A3A	DarkBlue-Disabled
+ 92 133	176 #5c85b0  AccentBlue-1
+ 58  58  58 #3A3A3A  AccentBlue1-Disabled
+242 141	 97 #f28d61  AccentOrange-1
+ 95  95	 95 #5f5f5f  AccentOrange1-Disabled
+247 201	 99 #f7c963  AccentYellow-1
+109 109	109 #6d6d6d  AccentYellow1-Disabled
+108 154	137 #6c9a89  AccentGreen-1
+ 68  68	 68 #444444   AccentGreen-1-Disabled
+159 182	197 #9fb6c5  AccentBlue-2A
+ 95  95	 95 #5f5f5f  AccentBlue-2A-Disabled
+218 235	251 #daebfb  AccentBlue-2B
+113 113	113 #717171  AccentBlue-2B-Disabled
+177 191	166 #b1bfa6  AccentGreen-2A
+ 95  95	 95 #5f5f5f  AccentGreen-2A-Disabled
+211 228	199 #d3e4c6  AccentGreen-2B
+113 113	113 #717171  AccentGreen-2B-Disabled
+140 180	194 #8cb4c2  AccentBlue-3
+109 109	109 #6d6d6d  AccentBlue-3-Disabled
+213 145	 95 #d5915f  AccentOrange-3
+ 95  95	 95 #5f5f5f  AccentOrange-3-Disabled
+247 224	143 #f7e08f  AccentYellow-3
+113 113	113 #717171  AccentYellow-3-Disabled
+140 196	151 #8cc497  AccentGreen-3
+ 95  95	 95 #5f5f5f  AccentGreen-3-Disabled
+141 151 158 #8d979e  AccentBlue-4
+109 109	109 #6d6d6d  AccentBlue-4-Disabled
+151 127	111 #977f6f  AccentOrange-4
+ 95  95	 95 #5f5f5f  AccentOrange-4-Disabled
+200 191 151 #c8bf97  AccentYellow-4
+113 113	113 #717171  AccentYellow-4-Disabled
+165 176	159 #a5b09f  AccentGreen-4
+113 113	113 #717171  AccentGreen-4-Disabled
+ 89 141	229 #598de5  Notification-Information-Blue
+ 88 159	105 #589f69  Notification-Confirm-Green
+235 207	 18 #ebcf12  Notification-Warning-Yellow
+232  43	 44 #e82b2c  Notification-Error-Red
+
+ 
+
+
+
