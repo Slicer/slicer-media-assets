@@ -27,11 +27,11 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
      inkscape:zoom="6.8206138"
-     inkscape:cx="22.725227"
+     inkscape:cx="22.65192"
      inkscape:cy="21.992156"
      inkscape:window-width="1392"
      inkscape:window-height="773"
-     inkscape:window-x="125"
+     inkscape:window-x="229"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1">
@@ -53,20 +53,19 @@
        visible="true" />
   </sodipodi:namedview>
   <circle
-     style="opacity:1;fill:#3a3a3a;stroke:none;stroke-width:2;stroke-linejoin:round;paint-order:fill markers stroke;fill-opacity:1"
+     style="fill:#3a3a3a;fill-opacity:1;stroke:none;stroke-width:2;stroke-linejoin:round;paint-order:fill markers stroke"
      id="path6"
-     cx="24"
-     cy="24"
+     cx="23.099997"
+     cy="24.900003"
      r="19" />
   <path
      id="path2"
-     style="fill:#4a4a4a;stroke:#000000;stroke-width:2.00001;stroke-linejoin:round;stroke-opacity:0;paint-order:fill markers stroke;fill-opacity:1"
-     d="M 16.549337 -7.4922935 A 18.999996 18.999996 0 0 0 14.940393 8.8817842e-16 A 18.999996 18.999996 0 0 0 33.941125 19.000733 A 18.999996 18.999996 0 0 0 52.941858 3.5527137e-15 A 18.999996 18.999996 0 0 0 51.361916 -7.521296 L 33.941125 9.8994949 L 16.549337 -7.4922935 z "
-     transform="rotate(45)" />
+     style="fill:#4a4a4a;fill-opacity:1;stroke:#000000;stroke-width:2.00001;stroke-linejoin:round;stroke-opacity:0;paint-order:fill markers stroke"
+     d="m 16.1,7.3042969 a 18.999996,18.999996 0 0 0 -6.435547,4.1601561 18.999996,18.999996 0 0 0 -10e-7,26.871094 18.999996,18.999996 0 0 0 26.871095,0 A 18.999996,18.999996 0 0 0 40.736719,31.9 H 16.1 Z" />
   <path
      id="path10"
-     style="fill:none;stroke:#666666;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke;stroke-opacity:1"
-     d="M 42.324696 26.001463 A 18.433674 18.433674 0 0 1 24 42.433674 A 18.433674 18.433674 0 0 1 5.566326 24 A 18.433674 18.433674 0 0 1 21.727778 5.7069046 " />
+     style="fill:none;stroke:#666666;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 41.424696,26.901463 A 18.433674,18.433674 0 0 1 23.1,43.333674 18.433674,18.433674 0 0 1 4.666326,24.9 18.433674,18.433674 0 0 1 20.827778,6.6069046" />
   <path
      style="fill:#666666;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="M 21.473476,26.326524 42.326524,5.473476"
