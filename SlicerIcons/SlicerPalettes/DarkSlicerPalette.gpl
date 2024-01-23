@@ -1,9 +1,17 @@
 GIMP Palette
-Name: DarkSlicerPallette.gpl
+Name: DarkSlicerPalette.gpl
 #
  50  50  50 #323232	BackgroundGrey
 220 220 230 #DCDCE6	TextAndStroke
 102 102 102 #666666	TextAndStroke-Disabled
+224 226	255 #e0e2ff	LightSlicerGradientBlue
+191 193	231 #bfc1e7	MediumSlicerGradientBlue
+119 123	192 #777bc0	DarkSlicerGradientBlue
+237 237	255 #ededff	IconViewerBlue
+191 191	191 #bfbfbf	IconViewerGrey
+232 43	44  #e82b2c	IconViewerRed
+246 216	14  #f6d80e	IconViewerYellow
+119 215	142 #77d78e	IconViewerGreen
 194 194	245 #c2c2f5	LightBlue
  95  95	 95 #5f5f5f	LightBlue-Disabled
 168 168 203 #A8A8CB	MediumBlue

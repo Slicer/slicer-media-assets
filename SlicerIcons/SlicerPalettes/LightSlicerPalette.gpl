@@ -1,13 +1,21 @@
 GIMP Palette
-Name: LightSlicerPallette.gpl
+Name: LightSlicerPalette.gpl
 # 
 255 255 255 #FFFFFF  BackgroundWhite
   0   0   0 #000000  TextAndStroke
 191 191 191 #BFBFBF  TexAndStroke-Disabled
-235 235 255 #EBEBFF  LightBlue
-245 245 255 #F5F5FF  LightBlue-Disabled
-200 200 230 #C8C8E6  MediumBlue
-224 224 242 #E0E0F3  MediumBlue-Disabled
+224 226	255 #e0e2ff  LightSlicerGradientBlue
+191 193	231 #bfc1e7  MediumSlicerGradientBlue
+119 123	192 #777bc0  DarkSlicerGradientBlue
+237 237	255 #ededff  IconViewerBlue
+191 191	191 #bfbfbf  IconViewerGrey
+232 43	44  #e82b2c  IconViewerRed
+246 216	14  #f6d80e  IconViewerYellow
+119 215	142 #77d78e  IconViewerGreen
+235 235	255 #EBEBFF  LightBlue
+245 245	255 #F5F5FF  LightBlue-Disabled
+200 200	230 #C8C8E6  MediumBlue
+224 224	242 #E0E0F3  MediumBlue-Disabled
 149 149	210 #9595d1  DarkBlue
 206 206	222 #cecede  DarkBlue-Disabled
  92 133	176 #5c85b0  AccentBlue-1
