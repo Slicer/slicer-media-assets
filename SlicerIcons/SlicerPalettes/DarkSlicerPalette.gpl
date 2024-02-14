@@ -2,8 +2,10 @@ GIMP Palette
 Name: DarkSlicerPalette.gpl
 #
  50  50  50 #323232	BackgroundGrey
-220 220 230 #DCDCE6	TextAndStroke
-102 102 102 #666666	TextAndStroke-Disabled
+220 220 230 #DCDCE6	DarkSlicePrimaryTextAndStroke
+102 102 102 #666666	DarkSlicerPrimaryTextAndStroke-Disabled
+192 192	255 #c0c0ff	DarkSlicerBasicFill
+164 164	171 #a4a4ab	DarkSlicerAccentStroke
 224 226	255 #e0e2ff	LightSlicerGradientBlue
 191 193	231 #bfc1e7	MediumSlicerGradientBlue
 119 123	192 #777bc0	DarkSlicerGradientBlue

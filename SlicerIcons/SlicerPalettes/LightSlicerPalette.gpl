@@ -2,8 +2,10 @@ GIMP Palette
 Name: LightSlicerPalette.gpl
 # 
 255 255 255 #FFFFFF  BackgroundWhite
-  0   0   0 #000000  TextAndStroke
-191 191 191 #BFBFBF  TexAndStroke-Disabled
+  0   0   0 #000000  LightSlicerPrimaryTextAndStroke
+191 191 191 #BFBFBF  LightSlicerPrimaryTexAndStroke-Disabled
+235 235	255 #ebebff  LightSlicerBasicFill
+  0   0	  0 #000000  LightSlicerAccentStroke
 224 226	255 #e0e2ff  LightSlicerGradientBlue
 191 193	231 #bfc1e7  MediumSlicerGradientBlue
 119 123	192 #777bc0  DarkSlicerGradientBlue
