@@ -1,0 +1,8 @@
+Files in the SWAPSTYLES subdirectories are for testing color swapping logic for converting Light Theme Enabled icons in the directory into:
+
+Light Theme Disabled,
+Dark Theme Enabled, and
+Dark Theme Disabled icons.
+
+They can be tested against the appearance of Dark Theme Enabled icons in
+../DarkModeIcons/ subdirs.

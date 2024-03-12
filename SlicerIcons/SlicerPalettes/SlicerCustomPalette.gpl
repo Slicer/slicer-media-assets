@@ -1,0 +1,29 @@
+GIMP Palette
+Name: SlicerCustomPalette.gpl
+#
+# Fill colors for use in Enabled State and Disabled State (same for both)
+# All replaced by Disabled Basic Fill/stroke when Disabled.
+#
+100 179 129 #64B381	DarkGreen
+140 196 151 #8CC497	MediumGreen
+186 223 195 #BADFC3	LightGreen
+107 172 194 #6BACC2	DarkCyan
+140 180 194 #8CB4C2	MediumCyan
+175 206 216 #AFCED8	LightCyan
+215  92  88 #D75C58	GreyedRed
+213 181 157 #D5B59D	Brown
+241 161 110 #F1A16E	DarkOrange
+255 183	 99 #ffb763	WarmOrange
+247 224 143 #F7E08F	Yellow
+247 235 186 #F7EBBA	LightYellow
+
+
+
+
+
+
+
+
+
+
+
