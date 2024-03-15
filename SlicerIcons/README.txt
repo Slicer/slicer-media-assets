@@ -14,7 +14,11 @@ Two versions are provided, pending choice of rendering method for color swapping
 ../slicer-media-assets/SlicerIcons/SlicerSVG/LayeredStyles/SlicerIconTemplate.svg
 ../slicer-media-assets/SlicerIcons/SlicerSVG/SwapStyles/SlicerIconTemplate.svg
 
-                THEME/STATE 
+THEMES are Light and Dark
+STATES are Enabled and Disabled (Hover and Press are states communicated with an icon button's outline).
+
+
+                COLOR PALETTES
 /*-------------------------------------------------------------------------------------------------*/
 
 		BASIC PALETTE THEME/STATE COLOR SWAPS:
@@ -142,15 +146,19 @@ use ONLY the group with the relevant THEME/STATE name and override its visibilit
        id="DarkThemeEnabledLayer"
        id="DarkThemeDisabledLayer"
 
+    4. Also, the visibility attribute must be added to the layer (just after the id).
+    In the LightThemeEnabledLayer, set visibility="visible" by default, and in all other
+    layers, set visibility="hidden".
+
  
 
 /*--------------------------------------------------------------*/
 
             SWAPSTYLES PSEUDOCODE
 	    
-To swap colors to render Dark theme and disabled states in both themes,
-read original svg xml and search for elements with stroke & fill attributes.
-Override these inline styles by appending appropriate colors for fill and stroke
+To swap colors to render a Light Theme icon in it's Dark theme and disabled states in both themes,
+read original svg xml and search for graphic elements with inline stroke & fill attributes.
+OVERRIDE these inline styles by appending appropriate colors for fill and stroke
 at the END of the style definition, overriding original values. Send modified
 SVG to SvgRenderer.
 
