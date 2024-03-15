@@ -61,7 +61,7 @@
   <g
      inkscape:groupmode="layer"
      id="DarkThemeDisabledLayer"
-     visibility="visible"     
+     visibility="hidden"     
      inkscape:label="DarkThemeDisabledLayer"
      style="display:inline;stroke:#808080">
     <path
@@ -83,7 +83,7 @@
   <g
      inkscape:groupmode="layer"
      id="LightThemeDisabledLayer"
-     visibility="visible"     
+     visibility="hidden"     
      inkscape:label="LightThemeDisabledLayer"
      style="display:inline;stroke:#cccccc">
     <path
@@ -105,7 +105,7 @@
   <g
      inkscape:groupmode="layer"
      id="DarkThemeEnabledLayer"
-     visibility="visible"
+     visibility="hidden"
      inkscape:label="DarkThemeEnabledLayer"
      style="display:inline;stroke:#e5e5f6">
     <path

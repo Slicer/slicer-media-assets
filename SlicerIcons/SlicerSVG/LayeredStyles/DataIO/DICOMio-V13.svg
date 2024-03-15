@@ -52,7 +52,7 @@
        visible="true" /></sodipodi:namedview><g
      inkscape:groupmode="layer"
      id="DarkThemeDisabledLayer"
-     visibility="visible"
+     visibility="hidden"
      inkscape:label="DarkThemeDisabledLayer"><path
        style="display:inline;fill:#666666;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 33.095801,29.027848 -6.502965,6.402681 M 33.095801,29.027848 40.718952,36.6"
@@ -97,7 +97,7 @@
        sodipodi:nodetypes="cc" /></g><g
      inkscape:groupmode="layer"
      id="LightThemeDisabledLayer"
-     visibility="visible"
+     visibility="hidden"
      inkscape:label="LightThemeDisabledLayer"
      style="display:inline"
      sodipodi:insensitive="true"><path
@@ -144,7 +144,7 @@
        sodipodi:nodetypes="cc" /></g><g
      inkscape:groupmode="layer"
      id="DarkThemeEnabledLayer"
-     visibility="visible"
+     visibility="hidden"
      inkscape:label="DarkThemeEnabledLayer"
      style="display:inline"
      sodipodi:insensitive="true"><path
