@@ -29,13 +29,13 @@
      showgrid="true"
      inkscape:zoom="6.8206139"
      inkscape:cx="18.766639"
-     inkscape:cy="38.412965"
+     inkscape:cy="38.339657"
      inkscape:window-width="1440"
      inkscape:window-height="771"
      inkscape:window-x="-11"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showguides="true"
      showborder="true"
      inkscape:clip-to-page="false"><inkscape:grid
@@ -78,8 +78,8 @@
        id="perspective8" /></defs><g
      inkscape:groupmode="layer"
      id="DarkThemeDisabledLayer"
-     visibility="hidden"     
-     inkscape:label="DarkThemeDisabledLayer\"
+     visibility="hidden"
+     inkscape:label="DarkThemeDisabledLayer"
      style="display:inline"><path
        style="fill:#8a8a8a;fill-opacity:1;stroke:#666666;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 23.97609,5.1182129 4.9404242,15.428635 4.9927262,33.786675 23.97609,42.894149 42.964057,33.682071 V 15.376333 Z"
@@ -144,7 +144,7 @@
        sodipodi:nodetypes="ccc" /></g><g
      inkscape:groupmode="layer"
      id="DarkThemeEnabledLayer"
-     visibility="hidden"
+     visibility="hidden"     
      inkscape:label="DarkThemeEnabledLayer"
      style="display:inline"><path
        style="fill:#8ed595;fill-opacity:1;stroke:#e5e5f6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
