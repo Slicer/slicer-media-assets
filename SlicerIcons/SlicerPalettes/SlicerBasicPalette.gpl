@@ -21,11 +21,11 @@ Name: SlicerBasicPalette.gpl
 # Light Theme Basic colors
 #
   0   0	  0 #000000	LightTheme-Enabled-Basic-Stroke
-204 204 204 #CCCCCC	LightTheme-Disabled-Basic-Stroke
+178 178 178 #B2B2B2	LightTheme-Disabled-Basic-Stroke
 229 229	255 #E5E5FF	LightTheme-Enabled-Basic-Fill
-245 245 255 #F5F5FF	LightTheme-Disabled-Basic-Fill
+232 232 255 #E8E8FF	LightTheme-Disabled-Basic-Fill
   1   1   1 #010101	LightTheme-Enabled-Accent1
-102 102	102 #707070	LightTheme-Disabled-Accent1
+178 178	178 #B2B2B2	LightTheme-Disabled-Accent1
 184 184	255 #b8b8ff	LightTheme-Enabled-Accent2
 204 204 204 #CCCCCC	LightTheme-Disabled-Accent2
 255 255 255 #FFFFFF	LightTheme-Background

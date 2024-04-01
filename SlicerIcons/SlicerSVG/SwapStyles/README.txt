@@ -1,8 +1,10 @@
-Files in the SWAPSTYLES subdirectories are for testing color swapping logic for converting Light Theme Enabled icons in the directory into:
+Color swapping logic for SWAP STYLES approach is described in ../../README.txt.
+This logic is for converting Light Theme Enabled icons in the directory into:
 
-Light Theme Disabled,
-Dark Theme Enabled, and
-Dark Theme Disabled icons.
+-Light Theme Disabled,
+-Dark Theme Enabled, and
+-Dark Theme Disabled icons.
 
-They can be tested against the appearance of Dark Theme Enabled icons in
-../DarkThemeIcons/ subdirs.
+Files in the SWAPSTYLES subdirectories are LightThemeEnabled icons that can
+be used for creating other theme/state versions.
+

@@ -27,14 +27,14 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
      inkscape:zoom="5.4604086"
-     inkscape:cx="21.884809"
+     inkscape:cx="21.793241"
      inkscape:cy="37.085137"
      inkscape:window-width="1392"
      inkscape:window-height="773"
-     inkscape:window-x="48"
-     inkscape:window-y="25"
+     inkscape:window-x="44"
+     inkscape:window-y="27"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="LightThemeDisabledLayer"
      showguides="true">
     <inkscape:grid
        id="grid1"
@@ -59,11 +59,11 @@
        inkscape:locked="false" />
   </sodipodi:namedview>
   <g
-     inkscape:groupmode="layer"
      id="DarkThemeDisabledLayer"
-     visibility="hidden"     
+     inkscape:groupmode="layer"
      inkscape:label="DarkThemeDisabledLayer"
-     style="display:inline;stroke:#808080">
+     style="display:none;stroke:#808080"
+     sodipodi:insensitive="true">
     <path
        style="display:inline;fill:#666666;stroke:#808080;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 24.990155,45.07215 33.39312,36.719469 M 24.990155,45.07215 16.467004,36.599998"
@@ -81,33 +81,33 @@
        sodipodi:nodetypes="cccccccc" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="LightThemeDisabledLayer"
-     visibility="hidden"     
+     inkscape:groupmode="layer"
      inkscape:label="LightThemeDisabledLayer"
-     style="display:inline;stroke:#cccccc">
+     style="display:none;stroke:#b2b2b2"
+     sodipodi:insensitive="true">
     <path
-       style="display:inline;fill:#666666;stroke:#cccccc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#666666;stroke:#b2b2b2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 24.990155,45.07215 33.39312,36.719469 M 24.990155,45.07215 16.467004,36.599998"
        id="path3-6"
        inkscape:label="path3" />
     <path
-       style="display:inline;fill:none;stroke:#cccccc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;stroke:#b2b2b2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 24.95,20.962782 v 23.21122"
        id="path1-3"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#b2b2b2;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 18.036531,29.004438 H 6.980732 V 4.9818024 h 9.432114 l 3.232279,4.019706 H 41 V 29 h -8.721766"
        id="path2-08"
        sodipodi:nodetypes="cccccccc" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="DarkThemeEnabledLayer"
-     visibility="hidden"
+     inkscape:groupmode="layer"
      inkscape:label="DarkThemeEnabledLayer"
-     style="display:inline;stroke:#e5e5f6">
+     style="display:none;stroke:#e5e5f6"
+     sodipodi:insensitive="true">
     <path
        style="display:inline;fill:#666666;stroke:#e5e5f6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 24.990155,45.07215 33.39312,36.719469 M 24.990155,45.07215 16.467004,36.599998"
@@ -125,11 +125,11 @@
        sodipodi:nodetypes="cccccccc" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="LightThemeEnabledLayer"
-     visibility="visible"
+     inkscape:groupmode="layer"
      inkscape:label="LightThemeEnabledLayer"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="display:inline;fill:#666666;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 24.990155,45.07215 33.39312,36.719469 M 24.990155,45.07215 16.467004,36.599998"
