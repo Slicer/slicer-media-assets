@@ -105,11 +105,9 @@ SlicerSVG contains LightThemeIcons and DarkThemeIcons which are versions of draf
 
 Slightly more design work, less programatic color swapping.
 EACH THEMES/STATE is contained in a separate layer in a single SVG file.
-Two edits to SVG's XML are required: 
+One edit to SVG's XML are required: 
    -The group id for each layer should be changed to id=THEMENAMESTATENAMELayer.
-   -The visibility attribute must be added to each group just after the id:
-       -visibility="visible" for LightThemeEnabledLayer as a default.
-       -visibility="hidden" for LightThemeDisabledLayer, DarkThemeEnabledLayer, DarkThemeDisbledLayer.
+   -If not using Inkscape to create, set EVERY layers' inline style to includes "display:none" EXCEPT for LightThemeEnabledLayer, which should specify "display:inline" by default.
        
    THEME/STATE CHANGING LOGIC:
    
