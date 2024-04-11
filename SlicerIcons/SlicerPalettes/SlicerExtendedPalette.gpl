@@ -27,7 +27,8 @@ Name: SlicerCustomPalette.gpl
 229 229	229 #E5E5E5	SliceViewerLightGrey
 191 191 191 #BFBFBF	SliceViewerGrey
 164 197 172 #A4C5AC	SegmentEditorModuleGreen
-253  89	 89 #fd5959	MarkupsModuleRed
+222  77  77 #D75C58	LightThemeMarkupsRed
+253  89	 89 #FD5959	DarkThemeMarkupsRed
 213  63  55 #D53F37	ErrorMessageRed
 247 206	 99 #F7ce63	WarningMessageYellow
 142 213 149 #8ED595	ConfirmMessageGreen
