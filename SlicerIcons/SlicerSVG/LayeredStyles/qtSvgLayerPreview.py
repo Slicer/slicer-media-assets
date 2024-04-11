@@ -152,7 +152,7 @@ class MainWindow(QMainWindow):
         global currentTheme
         currentTheme = "Dark"
         global currentState
-        self.svgWidget.setStyleSheet('background-color:rgb(50,50,50)')
+        self.svgWidget.setStyleSheet('background-color:rgb(18,18,18)')
         self.ParseSVG()
         self.svgWidget.load(workFileName)
         self.svgWidget.update()
