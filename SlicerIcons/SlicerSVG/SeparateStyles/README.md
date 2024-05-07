@@ -36,7 +36,7 @@ Icons and themes are organized in and searched for in **specific directories**. 
 
 Create and name directory for custom icons whose subdirectory structure looks like this:
    
-![Screenshot 2024-05-06 at 10.48.27 AM](https://hackmd.io/_uploads/SkARpw8MA.png)
+![Screenshot 2024-05-06 at 10.48.27 AM] (https://hackmd.io/_uploads/SkARpw8MA.png)
 
 A2. CREATE THEME INDEX FILES. Index files for the light and dark themes (above, light.theme and dark.theme) define various aspects of the theme.
 
