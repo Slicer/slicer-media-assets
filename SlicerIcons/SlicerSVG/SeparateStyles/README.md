@@ -16,8 +16,9 @@ Slicer core icons use the **basic**, **extended** and **custom** palettes. For i
 
 #### Pros/Cons of using separate svgs for themes.
 **Cons:**
-* whether this kind of switching will be slow with so many icons.
-* application bloat from keeping multiple themed svgs for each icon 
+* whether this kind of switching will be slow with so many icons. 
+* questions about icon caching for hidden widgets (like pull down menus, hidden gui panels etc.)
+* application bloat from requiring multiple themed svgs for each icon 
 
 **Pros:**
 * seems like Qt has framework for doing this. 
