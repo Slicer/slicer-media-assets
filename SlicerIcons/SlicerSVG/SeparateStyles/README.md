@@ -1,12 +1,10 @@
 ## Separate versions of Light Theme and Dark Theme icons.
 
-### SLICER
+**./LightThemeIcons/** subdirectory contains icons for display on a white Slicer background (#ffffff). 
 
-**LightThemeIcons/** directory contains icons for display on a white Slicer background (#ffffff). 
+**./DarkThemeIcons/** subdirectory contains corresponding icons for display on a dark slicer background (#121212).
 
-**DarkThemeIcons/** directory contains corresponding icons for display on a dark slicer background (#121212).
-
-Slicer core icons use the **basic**, **extended** and **custom** palettes. For individuals contributing additional icons, it is recommended they be:
+Slicer core icons use the **Basic**, **Extended** and **Custom**  icon palettes. For individuals contributing additional icons, it is recommended they be:
 
 *     simple as possible, 
 *     adhere to the basic palette and "link to: design guidelines"
@@ -17,7 +15,7 @@ Slicer core icons use the **basic**, **extended** and **custom** palettes. For i
 #### Pros/Cons of using separate svgs for themes.
 **Cons:**
 * whether this kind of switching will be slow with so many icons. 
-* questions about icon caching for hidden widgets (like pull down menus, hidden gui panels etc.)
+* questions about performance problems from icon caching for hidden widgets (like pull down menus, hidden gui panels etc.)
 * application bloat from requiring multiple themed svgs for each icon 
 
 **Pros:**
@@ -84,7 +82,7 @@ A4.  SOME STUFF TO SET UP FOR EACH ICON:
 > QIcon.setThemeName ("light") or ("dark")
 > QIcon.fromTheme (QIcon selectColorIcon QIcon::fromTheme(QIcon::ThemeIcon SlicerSelectColorIcon))
 > QIcon.addFile(SlicerSelectColor.svg...)
-> 
+> other...
 
 A5. OBVSERVE FOR THEME CHANGE EVENT. 
 
@@ -112,9 +110,11 @@ Its callback function should include:
 These classes are based on Slicer's palettes would be:
 * copied into the DEFS section of any created svg file.
 * applied to the default light theme icon's graphic elements.
-* then used to programatically derive a dark (or disabled state) icon by editing the defs to replace light theme colors with corresponding dark theme colors from Slicer palettes.
+* then used to programatically derive a dark (or disabled state) icon by editing the DEFS to replace light theme colors with corresponding dark theme colors from Slicer palettes.
 
-REQUIRES MINIMAL EDITING OF ANY CREATED SVG.  Example of class definitions and application to graphic elements: 
+REQUIRES MINIMAL EDITING OF ANY CREATED SVG.  
+
+Example of class definitions and application to graphic elements: 
 
 ```
 <svg height="100" width="100">
@@ -148,7 +148,7 @@ REQUIRES MINIMAL EDITING OF ANY CREATED SVG.  Example of class definitions and a
                 #PlotViewerGreen Fill Light Theme
                 fill: #03b42d;
                 #PlotViewerGreen Fill Dark Theme
-                fill: #03b42d;
+                #fill: #03b42d;
             }
             ....and so on...
     </defs>
@@ -163,7 +163,7 @@ REQUIRES MINIMAL EDITING OF ANY CREATED SVG.  Example of class definitions and a
 
 2. Advanced stylesheets for Qt? https://marketplace.qt.io/products/qt-advanced-stylesheets
 
-## D. Using color changing logic to derive dark theme version from light theme.
+## D. Using color changing logic to derive dark theme version from light theme. [[This proves to be messy and brittle]]
 
 If retrieving separate files from disk on theme change is not performative:
 
