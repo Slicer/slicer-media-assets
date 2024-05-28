@@ -8,8 +8,11 @@ This file contains information about Slicer Icon Palettes.
 
 3. **CUSTOM PALETTE (for module icon authors**) contains some curated colors for developers to use and extend for Module color-coding accent colors. Other stroke/fill colors may be added to extend this palette. Also recommended to use FILL colors that work for all themes so they can be used without need for swapping.
 
+3. **SIMPLE PALETTE (newest addition**) Has a small color palette for dark and light themes and a global palette that requires no changes when changing themes.
+
 ** NOTE: Adding new custom colors for icons may require updates to the the following items:
-        -SlicerCustomPalette.gpl,csv,tsv
+        -SlicerCustomPalette.gpl,csv,tsv, or
+	-SlicerSimplePalette.gpl,csv,tsv, and
         -This README file.
 
 ###  Where to find Slicer Icon Palettes:
@@ -23,15 +26,19 @@ github: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes
 ../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerExtendedPalette.gpl
  **3. Custom Palette**
 ../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerCustomPalette.gpl
+ **4. SimplePalette**
+../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl
 
 Combined palettes in csv and tsv are also available.
  **SlicerPalettes combined CSV file**
-../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPaalettesCSV.csv
+../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPalettesCSV.csv
  **SlicerPalettes combined TSV file**
-../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPaalettesCSV.tsv 
+../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPalettesCSV.tsv 
 
 ### How to use Palettes in Inkscape
 The Gimp Palette format (.gpl) files can be imported into Inkscape. Copying the palettes into Inkscape's palettes directory (for instance: Inkscape/Contents/Resources/share/inkscape/palettes, tho this will vary with version and platform) will make them selectable from the palettes menu. 
+
+###ToDo: add simple palette here.
 
 ### Color Palette Table
 
