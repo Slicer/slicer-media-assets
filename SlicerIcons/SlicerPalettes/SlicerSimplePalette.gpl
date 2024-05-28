@@ -1,0 +1,48 @@
+GIMP Palette
+Name: SlicerSimplePalette.gpl
+Columns: 6
+#
+# Main colors to use for new Slicer Icons
+#
+
+#
+# Dark Theme Basic colors
+#
+ 18  18  18 #121212	DarkTheme-Background
+ 91  91 125 #5B5B7D	DarkTheme-Accent
+153 162 227 #99A2E3	DarkTheme-Accent-Fill
+229 229 246 #E5E5F6	DarkTheme-Basic-Stroke
+253  89  89 #FD5959	DarkThemeMarkupsModuleRed
+164 197 172 #A4C5AC	DarkThemeSegmentEditorModuleGreen
+
+#
+# Light Theme Basic colors
+#
+255 255 255 #FFFFFF	LightTheme-Background
+184 184 255 #b8b8ff	LightTheme-Accent
+229 229 255 #E5E5FF	LightTheme-Accent-Fill
+  0   0   0 #000000	LightTheme-Basic-Stroke
+222  77  77 #DE4D4D	LightThemeMarkupsModuleRed
+164 197 172 #A4C5AC	LightThemeSegmentEditorModuleGreen
+
+#
+# Pass-Through colors, --used by all themes.
+#
+  1   1   1 #010101	Global-SharedBlack
+128 128 128 #808080	Global-GreyFiftyPercent
+152 152 152 #989898	Global-GreySixtyPercent
+178 178 178 #B2B2B2	Global-GreySeventyPercent
+255 255 255 #ffffff	Global-White
+247 206  99 #F7ce63	Global-SliceViewerYellow
+237 114 108 #ED726c	Global-SliceViewerRed
+142 213 149 #8ED595	Global-SliceViewerGreen
+214 214 255 #D6D6ff	Global-ThreeDViewerBlue
+229 229 229 #E5E5E5	Global-SliceViewerLightGrey
+191 191 191 #BFBFBF	Global-SliceViewerGrey
+164 197 172 #A4C5AC	Global-SegmentEditorModuleGreen
+213  63  55 #D53F37	Global-ErrorMessageRed
+247 206  99 #F7ce63	Global-WarningMessageYellow
+142 213 149 #8ED595	Global-ConfirmMessageGreen
+115 150 223 #7396DF	Global-InformationMessageBlue
+
+
