@@ -36,6 +36,7 @@ Columns: 6
 247 206  99 #F7ce63	Global-SliceViewerYellow
 237 114 108 #ED726c	Global-SliceViewerRed
 142 213 149 #8ED595	Global-SliceViewerGreen
+241 161 110 #F1A16E	Global-CompareViewerOrange
 214 214 255 #D6D6ff	Global-ThreeDViewerBlue
 229 229 229 #E5E5E5	Global-SliceViewerLightGrey
 191 191 191 #BFBFBF	Global-SliceViewerGrey
