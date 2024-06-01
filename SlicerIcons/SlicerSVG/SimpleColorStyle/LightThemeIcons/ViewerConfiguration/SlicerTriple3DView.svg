@@ -35,7 +35,7 @@
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="DarkThemeEnabledLayer"
+     inkscape:current-layer="LightThemeEnabledLayer"
      showguides="true"><inkscape:grid
        id="grid1"
        units="px"
@@ -74,9 +74,9 @@
        inkscape:vp_z="48 : 24 : 1"
        inkscape:persp3d-origin="24 : 16 : 1"
        id="perspective8" /></defs><g
-     id="DarkThemeEnabledLayer"
+     id="LightThemeEnabledLayer"
      inkscape:groupmode="layer"
-     inkscape:label="DarkThemeEnabledLayer"
+     inkscape:label="LightThemeEnabledLayer"
      style="display:inline"
      sodipodi:insensitive="true"><rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.98565;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"

@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="6.8206136"
-     inkscape:cx="22.431999"
-     inkscape:cy="36.873515"
+     inkscape:zoom="6.8206135"
+     inkscape:cx="22.578614"
+     inkscape:cy="28.516496"
      inkscape:window-width="1440"
      inkscape:window-height="771"
      inkscape:window-x="0"
@@ -100,7 +100,7 @@
        d="m 26.985462,15.200002 h 6.100003 V 21.1 h -6.100003 z"
        sodipodi:nodetypes="ccccc" /><path
        id="rect1-0"
-       style="fill:#cccccc;fill-opacity:1;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="fill:#b2b2b2;fill-opacity:1;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        d="m 14.909289,21.100006 h 6.100003 v 5.899998 h -6.100003 z"
        sodipodi:nodetypes="ccccc" /><path
        id="rect1-4-4"
@@ -108,7 +108,7 @@
        d="m 20.95929,21.100006 h 6.100003 v 5.899998 H 20.95929 Z"
        sodipodi:nodetypes="ccccc" /><path
        id="rect1-4-1-5"
-       style="display:inline;fill:#cccccc;fill-opacity:1;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="display:inline;fill:#b2b2b2;fill-opacity:1;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        d="m 26.994754,21.100006 h 6.100003 v 5.899998 h -6.100003 z"
        sodipodi:nodetypes="ccccc" /><path
        id="rect1-6"
@@ -116,7 +116,7 @@
        d="m 14.916558,26.948628 h 6.100003 v 5.899998 h -6.100003 z"
        sodipodi:nodetypes="ccccc" /><path
        id="rect1-4-0"
-       style="display:inline;fill:#666666;fill-opacity:1;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="display:inline;fill:#000000;fill-opacity:0.6;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        d="m 20.966559,26.948628 h 6.100003 v 5.899998 h -6.100003 z"
        sodipodi:nodetypes="ccccc" /><path
        id="rect1-4-1-3"

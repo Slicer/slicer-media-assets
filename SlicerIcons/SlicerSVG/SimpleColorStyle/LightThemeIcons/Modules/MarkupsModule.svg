@@ -28,7 +28,7 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="8.8652482"
-     inkscape:cx="23.9136"
+     inkscape:cx="23.97"
      inkscape:cy="29.2716"
      inkscape:window-width="1440"
      inkscape:window-height="771"
@@ -77,7 +77,8 @@
      id="LightThemeEnabledLayer"
      inkscape:groupmode="layer"
      inkscape:label="LightThemeEnabledLayer"
-     style="display:inline"><path
+     style="display:inline"
+     sodipodi:insensitive="true"><path
        style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 7.0276,9.9999995 V 38"
        id="path1-4-6" /><path
