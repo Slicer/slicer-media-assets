@@ -11,39 +11,29 @@ Once technical requirements are solidified, design guidelines for icons that mee
 ./SlicerIconDesignGuidelines
 
 
-
 ---
 
 
 ### Icon Templates
-Icon templates will be provided for Inkscape and svg-edit desktop and web apps. Currently, multiple versions are provided, pending choice of rendering approach for theme changes:
-
-./SlicerSVG/LayeredStyles/IconTemplate/SlicerIconTemplate.svg
-
-./SlicerSVG/SeparateStyles/LightThemeIcons/IconTemplate/SlicerIconTemplate.svg
-
-./SlicerSVG/SeparateStyles/DarkThemeIcons/IconTemplate/SlicerIconTemplate.svg
-
-./SlicerSVG/QStyles/IconTemplate/SlicerIconTemplate.svg
-
-All icons were designed using Inkscape 1.3 (0e150ed, 2023-07-21). 
-
+Icon templates will be provided for Inkscape and svg-edit desktop and web apps. 
 
 
 ---
 
 ### Icon Color Palettes
-Basic, Extended, and Custom palette files are in 
 
-./SlicerPalettes
+**Palette of choice: ./slicer-media-assets/SlicerIcons/SlicerPalettes/SimpleColorPalette**. This palette contains a small number of colors to be switched when theme changes between light and dark, and other global colors that are theme independent -- no change necessary.
+
+Older palettes kept for now: Basic, Extended, and Custom palette files are also in ./slicer-media-assets/SlicerIcons/SlicerPalettes
 
 
 ---
 
+
 ### Icon Sandbox Directories
 ./SlicerSVG contains separate versions of icons for use in different approaches to switching themes within Slicer. These versions are in flux. Briefly:
 
-**New favored version: ./SlicerSVG/SimpleColorStyle** includes light theme icons that use the new SimpleColorPalette. Dark version of icons can be created by swapping a few colors.
+**New favored version: ./SlicerSVG/SimpleColorStyle** includes light theme icons that use the new SimpleColorPalette. Dark version of icons can be created by swapping a few colors. Dark versions are also provided for comparison.
 
 Older versions of palettes can still be found here for now:
 
@@ -53,4 +43,4 @@ Older versions of palettes can still be found here for now:
 
 ./SlicerSVG/LayeredStyles includes Multi-theme/state icon files comprised of grouped Light-enabled, Light-disabled, dark-enabled, dark-disabled versions of the icon. 
 
-
+All icons were designed using Inkscape 1.3 (0e150ed, 2023-07-21). 
