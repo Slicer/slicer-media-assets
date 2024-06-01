@@ -2,7 +2,7 @@
 
 This file contains information about Slicer Icon Palettes.
 
-1. **SLICER SIMPLE PALETTE (newest addition**) Has a small number of colors that switch between dark and light themes and a set of "global" colors that are used across themes -- no changes required.
+1. **SLICER SIMPLE PALETTE (newest addition**) Has a set of only 4 colors that switch between dark and light themes and a limited set of "global" colors that are used across themes -- no changes required. Additional global colors can be added by module authors, and should be chosen to have good appearance in any theme.
    ![image](https://github.com/Slicer/slicer-media-assets/assets/142107139/8d458c3e-ff43-4a73-81eb-a3a85dcfb460)
 2. **SLICER BASIC CORE PALETTE THEME/STATE COLOR SWAPS:** Used for basic stroke and flat fill icons.
 
