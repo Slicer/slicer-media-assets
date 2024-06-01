@@ -33,14 +33,12 @@ Older palettes kept for now: Basic, Extended, and Custom palette files are also 
 ### Icon Sandbox Directories
 ./SlicerSVG contains separate versions of icons for use in different approaches to switching themes within Slicer. These versions are in flux. Briefly:
 
-**New favored version: ./SlicerSVG/SimpleColorStyle** includes light theme icons that use the new SimpleColorPalette. Dark version of icons can be created by swapping a few colors. Dark versions are also provided for comparison.
+**New favored version: ./SlicerSVG/SimpleColorStyle** includes light theme icons that use the new SimpleColorPalette. Dark version of icons can be created by swapping a few colors. Dark versions are also provided for comparison. May be adapted for use with CSS classes, QSS or some other way to style icons.
 
-Older versions of palettes can still be found here for now:
+Older versions of icons can still be found here for now:
 
 ./SlicerSVG/SeparateStyles includes Light Theme Enabled icons AND Dark Theme icons that can be used with QIconFromTheme and Qt's existing framework for changing icons upon theme switch. For now, likely low performance, and easiest for icon authors.
  
-./SlicerSVG/Qstyles includes Light Theme icons only, intended for use with CSS classes, QSS or some other way to style icons.
-
 ./SlicerSVG/LayeredStyles includes Multi-theme/state icon files comprised of grouped Light-enabled, Light-disabled, dark-enabled, dark-disabled versions of the icon. 
 
 All icons were designed using Inkscape 1.3 (0e150ed, 2023-07-21). 
