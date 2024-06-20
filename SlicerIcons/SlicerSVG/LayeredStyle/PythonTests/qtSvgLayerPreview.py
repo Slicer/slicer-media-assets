@@ -1,6 +1,6 @@
 import sys
 import os.path
-import xml.etree.ElementTree as ET
+import lxml.etree.ElementTree as ET
 import copy
 from PyQt5 import QtGui, QtSvg, QtWidgets
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QPushButton
@@ -47,8 +47,8 @@ class MainWindow(QMainWindow):
         #---- Find namespaces
         namespaces = {node[0]: node[1] for _, node in ET.iterparse(fileName, events=['start-ns'])}
         # Register each one.
-        for key, value in namespaces.items():
-            ET.register_namespace(key, value)
+        #for key, value in namespaces.items():
+         #   ET.register_namespace(key, value)
             #print('registering namespace ' + key + ' ' + value + '\n')
     
         #---- Parse
