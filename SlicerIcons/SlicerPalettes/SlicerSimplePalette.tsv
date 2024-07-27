@@ -1,0 +1,26 @@
+Palette	ColorName		DarkTheme		LightTheme
+SIMPLE	Background		#121212		#FFFFFF
+SIMPLE	Stroke		#E5E5F6		#000000
+SIMPLE	Accent		#5b5b7d		#B8B8FF
+SIMPLE	Accent-Fill		#99A2E3		#E5E5FF
+SIMPLE (global)	MarkupsModuleRed		#FD5959		#FD5959
+SIMPLE (global)	SegmentEditorModuleGreen		#A4C5AC		#A4C5AC
+SIMPLE (global)	Global-SharedBlack		#010101		#010101
+SIMPLE (global)	Global-Grey70Percent		#B2B2B2		#B2B2B2
+SIMPLE (global)	Global-Grey60Percent		#989898		#989898
+SIMPLE (global)	Global-Grey50Percent		#808080		#808080
+SIMPLE (global)	Global-Grey40Percent		#666666		#666666
+SIMPLE (global)	Global-Grey30Percent		#4d4d4d		#4d4d4d
+SIMPLE (global)	Global-Grey20Percent		#333333		#333333
+SIMPLE (global)	Global-White		#FFFFFF		#FFFFFF
+SIMPLE (global)	Global-SliceViewerYellow		#F7ce63		#F7ce63
+SIMPLE (global)	Global-SliceViewerRed		#ED726C		#ED726C
+SIMPLE (global)	Global-SliceViewerGreen		#8ED595		#8ED595
+SIMPLE (global)	Global-ThreeDViewerFillBlue		#D6D6FF		#D6D6FF
+SIMPLE (global)	Global-ThreeDViewerStrokeBlue		#9899D5		#9899D5
+SIMPLE (global)	Global-CompareViewerOrange		#F1A16E		#F1A16E
+SIMPLE (global)	Global-SliceViewerGrey		#BFBFBF		#BFBFBF
+SIMPLE (global)	Global-ErrorMessageRed		#D53F37		#D53F37
+SIMPLE (global)	Global-WarningMessageYellow		#F7ce63		#F7ce63
+SIMPLE (global)	Global-ConfirmMessageGreen		#8ED595		#8ED595
+SIMPLE (global)	Global-InformationMessageBlue		#7396DF		#7396DF
