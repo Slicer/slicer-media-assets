@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="11.3125"
-     inkscape:cx="25.060773"
-     inkscape:cy="21.878453"
+     inkscape:zoom="8.0230496"
+     inkscape:cx="25.115138"
+     inkscape:cy="21.874475"
      inkscape:window-width="1392"
      inkscape:window-height="773"
      inkscape:window-x="48"
@@ -54,12 +54,12 @@
        visible="true" /></sodipodi:namedview><defs
      id="defs1" /><g
      id="DarkThemeEnabledLayer"
-     inkscape:label="DarkThemeEnabledLayer"
+     inkscape:label="EnabledLayer"
      inkscape:groupmode="layer"
      style="display:inline;stroke-width:2.15279"
      transform="matrix(0.47403832,0,0,0.45517843,12.580129,12.004818)"
      sodipodi:insensitive="true"><ellipse
-       style="fill:#e5e5f6;fill-opacity:0.967949;stroke:#000000;stroke-width:2.89447;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:2.89447;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="path4"
        cx="7.1334038"
        cy="27.243788"
