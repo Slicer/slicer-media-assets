@@ -6,20 +6,20 @@ Columns: 6
 #
 
 #
-# Dark Theme Basic colors
+# Dark Theme Basic colors -- switch for Light Theme
 #
- 18  18  18 #121212	DarkTheme-Background
- 91  91 125 #5B5B7D	DarkTheme-Accent
-153 162 227 #99A2E3	DarkTheme-Accent-Fill
-229 229 246 #E5E5F6	DarkTheme-Basic-Stroke
+ 18  18  18 #121212	Swap-DarkTheme-Background
+ 91  91 125 #5B5B7D	Swap-DarkTheme-Accent
+153 162 227 #99A2E3	Swap-DarkTheme-Accent-Fill
+229 229 246 #E5E5F6	Swap-DarkTheme-Basic-Stroke
 
 #
-# Light Theme Basic colors
+# Light Theme Basic colors -- switch for Dark Theme
 #
-255 255 255 #FFFFFF	LightTheme-Background
-184 184 255 #b8b8ff	LightTheme-Accent
-229 229 255 #E5E5FF	LightTheme-Accent-Fill
-  0   0   0 #000000	LightTheme-Basic-Stroke
+255 255 255 #FFFFFF	Swap-LightTheme-Background
+184 184 255 #b8b8ff	Swap-LightTheme-Accent
+229 229 255 #E5E5FF	Swap-LightTheme-Accent-Fill
+  0   0   0 #000000	Swap-LightTheme-Basic-Stroke
 
 #
 # Pass-Through colors, --used by all themes.
@@ -30,9 +30,11 @@ Columns: 6
  51  51	 51 #333333	Global-Grey20Percent
  77  77	 77 #4d4d4d	Global-Grey30Percent
 102 102 102 #666666	Global-Grey40Percent
-128 128 128 #808080	Global-GreyFiftyPercent
+128 128 128 #808080	Global-Grey50Percent
 152 152 152 #989898	Global-Grey60Percent
 178 178 178 #B2B2B2	Global-Grey70Percent
+204 204	204 #CCCCCC	Global-Grey80Percent
+229 229	229 #E5E5E5	Global-Grey90Percent
 255 255 255 #ffffff	Global-White
 247 206  99 #F7ce63	Global-SliceViewerYellow
 237 114 108 #ED726c	Global-SliceViewerRed
@@ -43,6 +45,9 @@ Columns: 6
 229 229 229 #E5E5E5	Global-SliceViewerLightGrey
 191 191 191 #BFBFBF	Global-SliceViewerGrey
 164 197 172 #A4C5AC	Global-SegmentEditorModuleGreen
+115 140	121 #738C79	Global-SegmentationAndLabelGridGreen
+ 20 204	 66 #14CC42	Global-SegmentationAndLabelOutlineGreen
+251 134	  0 #FB8600	Global-ActionOrange
 213  63  55 #D53F37	Global-ErrorMessageRed
 247 206  99 #F7ce63	Global-WarningMessageYellow
 142 213 149 #8ED595	Global-ConfirmMessageGreen

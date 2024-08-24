@@ -1,11 +1,16 @@
 Palette,ColorName,,DarkTheme,,LightTheme
-SIMPLE,Background,,#121212,,#FFFFFF
-SIMPLE,Stroke,,#E5E5F6,,#000000
-SIMPLE,Accent,,#5b5b7d,,#B8B8FF
-SIMPLE,Accent-Fill,,#99A2E3,,#E5E5FF
+SIMPLE (swap),Swap-Background,,#121212,,#FFFFFF
+SIMPLE (swap),Swap-Basic-Stroke,,#E5E5F6,,#000000
+SIMPLE (swap),Swap-Accent,,#5b5b7d,,#B8B8FF
+SIMPLE (swap),Swap-Accent-Fill,,#99A2E3,,#E5E5FF
 SIMPLE (global),MarkupsModuleRed,,#FD5959,,#FD5959
 SIMPLE (global),SegmentEditorModuleGreen,,#A4C5AC,,#A4C5AC
+SIMPLE (global),SegmentationAndLabelGridGreen,,#738C79,,#738C79
+SIMPLE (global),SegmentationAndLabelOutlineGreen,,#14CC42,,#14CC42
+SIMPLE (global),Global-ActionOrange,,#FB8600,,#FB8600
 SIMPLE (global),Global-SharedBlack,,#010101,,#010101
+SIMPLE (global),Global-Grey90Percent,,#E5E5E5,,#E5E5E5
+SIMPLE (global),Global-Grey80Percent,,#CCCCCC,,#CCCCCC
 SIMPLE (global),Global-Grey70Percent,,#B2B2B2,,#B2B2B2
 SIMPLE (global),Global-Grey60Percent,,#989898,,#989898
 SIMPLE (global),Global-Grey50Percent,,#808080,,#808080
