@@ -3,11 +3,11 @@ SIMPLE (swap),Swap-Background,,#121212,,#FFFFFF
 SIMPLE (swap),Swap-Basic-Stroke,,#E5E5F6,,#000000
 SIMPLE (swap),Swap-Accent,,#5b5b7d,,#B8B8FF
 SIMPLE (swap),Swap-Accent-Fill,,#99A2E3,,#E5E5FF
+SIMPLE (swap),Swap-ActionAmber,,#FA9F00,,#ED8800
+SIMPLE (swap),SegmentationAndLabelGridGreen,,#56695B,,#738C79
 SIMPLE (global),MarkupsModuleRed,,#FD5959,,#FD5959
 SIMPLE (global),SegmentEditorModuleGreen,,#A4C5AC,,#A4C5AC
-SIMPLE (global),SegmentationAndLabelGridGreen,,#738C79,,#738C79
 SIMPLE (global),SegmentationAndLabelOutlineGreen,,#14CC42,,#14CC42
-SIMPLE (global),Global-ActionOrange,,#FB8600,,#FB8600
 SIMPLE (global),Global-SharedBlack,,#010101,,#010101
 SIMPLE (global),Global-Grey90Percent,,#E5E5E5,,#E5E5E5
 SIMPLE (global),Global-Grey80Percent,,#CCCCCC,,#CCCCCC

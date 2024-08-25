@@ -12,6 +12,9 @@ Columns: 6
  91  91 125 #5B5B7D	Swap-DarkTheme-Accent
 153 162 227 #99A2E3	Swap-DarkTheme-Accent-Fill
 229 229 246 #E5E5F6	Swap-DarkTheme-Basic-Stroke
+250 159	  0 #FA9F00	Swap-DarkTheme-ActionAmber
+ 86 105	 91 #56695B	Swap-DarkTheme-SegmentationAndLabelGridGreen
+
 
 #
 # Light Theme Basic colors -- switch for Dark Theme
@@ -20,6 +23,8 @@ Columns: 6
 184 184 255 #b8b8ff	Swap-LightTheme-Accent
 229 229 255 #E5E5FF	Swap-LightTheme-Accent-Fill
   0   0   0 #000000	Swap-LightTheme-Basic-Stroke
+237 136	  0 #ED8800	Swap-LightTheme-ActionAmber
+115 140	121 #738C79	Swap-LightTheme-SegmentationAndLabelGridGreen
 
 #
 # Pass-Through colors, --used by all themes.
@@ -45,9 +50,7 @@ Columns: 6
 229 229 229 #E5E5E5	Global-SliceViewerLightGrey
 191 191 191 #BFBFBF	Global-SliceViewerGrey
 164 197 172 #A4C5AC	Global-SegmentEditorModuleGreen
-115 140	121 #738C79	Global-SegmentationAndLabelGridGreen
  20 204	 66 #14CC42	Global-SegmentationAndLabelOutlineGreen
-251 134	  0 #FB8600	Global-ActionOrange
 213  63  55 #D53F37	Global-ErrorMessageRed
 247 206  99 #F7ce63	Global-WarningMessageYellow
 142 213 149 #8ED595	Global-ConfirmMessageGreen
