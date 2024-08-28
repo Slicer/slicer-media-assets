@@ -1,1 +1,0 @@
-SliceViewerIconsDesignInfo.md
