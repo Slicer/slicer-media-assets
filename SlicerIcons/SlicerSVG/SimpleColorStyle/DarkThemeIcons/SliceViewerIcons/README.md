@@ -8,11 +8,13 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Source (volumes):** orthographic cube
 
-* **Image|view|slice:** plane with axis & 4 quadrants OR 4 voxels
+* **Image|view|slice:** plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
 
-* **Action/processing:** green/amber object color TBD
+* **Action/processing:** "ActinoAmber" object color coding
 
-* **Plane with bar across top:** slice|image viewer
+* **Plane with R|G|Y bar across top:** slice|image viewer
+
+* **Segmentation:** "SegmentationGreen" fill color and "SegmentationGridGreen" grid color.
 
 ## Full Icon set for Slice Viewers Dark and Light Themes:
 
