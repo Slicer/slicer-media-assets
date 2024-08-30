@@ -18,5 +18,5 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 Light & Dark Theme 
 
-<img src="https://github.com/user-attachments/assets/b556253c-bfe5-49f5-8880-20ea362094d1" width="600">
+<img src="https://github.com/user-attachments/assets/0589bf3a-0e70-4c8d-9c64-1bb820b18038" width="600">
 
