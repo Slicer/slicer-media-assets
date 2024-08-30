@@ -22,3 +22,25 @@ Light & Dark Theme
 
 <img src="https://github.com/user-attachments/assets/0589bf3a-0e70-4c8d-9c64-1bb820b18038" width="600">
 
+## Specific Colors included Palette
+
+SliceViewer Action Amber (LightTheme):
+* RGB 237 136 0
+* HEX #ED8800FF
+
+SliceViewer Action Amber (DarkTheme):
+* RGB 250 159 0
+* HEX #FA9F00FF
+
+Slicer Segmentation and Label Grid Green (LightTheme):
+* HEX #738C79FF
+* RGB 115 140 121
+
+Slicer Segmentation and Label Grid Green (DarkTheme):
+* HEX #56695BFF
+* RGB 86 105 91
+
+Slicer Segmentation and Label Outline Green:
+* HEX #14CC42FF
+* RGB 20 204 66 
+
