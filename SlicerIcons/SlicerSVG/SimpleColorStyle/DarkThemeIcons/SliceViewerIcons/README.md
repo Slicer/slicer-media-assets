@@ -16,10 +16,7 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 ## Full Icon set for Slice Viewers Dark and Light Themes:
 
-Dark Theme 
+Light & Dark Theme 
 
-<img src="https://github.com/user-attachments/assets/53124a35-eaea-4828-9c1e-df2d26f3dd00" width="600">
+<img src="https://github.com/user-attachments/assets/b556253c-bfe5-49f5-8880-20ea362094d1" width="600">
 
-Light Theme
-
-<img src="https://github.com/user-attachments/assets/8bf42d35-c6e5-4ac2-b77e-f26d3bf68d7d" width="600">
