@@ -14,14 +14,12 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Plane with bar across top:** slice|image viewer
 
-## Full Icon set for Slice Viewers Dark Theme (both options V2 & V3)
+## Full Icon set for Slice Viewers Dark and Light Themes:
 
-Dark Theme V2
+Dark Theme 
 
-![image](https://github.com/user-attachments/assets/836d2a85-c00f-4971-aaf8-6b8b6ec7cfab)
+<img src="https://github.com/user-attachments/assets/53124a35-eaea-4828-9c1e-df2d26f3dd00" width="600">
 
+Light Theme
 
-Not sure why formatting to change the size of image in document is not working...link =200x or =%50x don't work. 
-
-Dark Theme V3
-
+<img src="https://github.com/user-attachments/assets/8bf42d35-c6e5-4ac2-b77e-f26d3bf68d7d" width="600">
