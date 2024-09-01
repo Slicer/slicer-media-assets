@@ -10,13 +10,13 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Image|view|slice:** 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
 
-* **Action/processing:** "ActinoAmber" object color coding
+* **Action/processing:** "Action Amber" object color coding
 
 * **Slice Viewer | image viewer:** Plane with R|G|Y bar across top
   
-* **Segmentation form: dyadic object that describes combination of 2D (grid) and 3D mesh representations
+* **Segmentation form:** dyadic object that describes combination of 2D (grid) and 3D mesh representations
 
-* * **Segmentation color:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
+* **Segmentation color:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
 
 
 ## Full Icon set for Slice Viewers Dark and Light Themes:
