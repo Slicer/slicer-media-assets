@@ -46,3 +46,8 @@ Slicer Segmentation and Label Outline Green:
 * HEX #14CC42FF
 * RGB 20 204 66 
 
+## Current Slice Viewer Mockups with new icons
+
+<img src="https://github.com/user-attachments/assets/2fe0f072-2713-47d5-af8c-79dac80a31f4" width="700">
+
+<img src="https://github.com/user-attachments/assets/fef1fe44-6efe-4adb-8de2-91d819976240" width="700">
