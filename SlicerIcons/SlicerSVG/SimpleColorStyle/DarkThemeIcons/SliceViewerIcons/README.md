@@ -12,11 +12,12 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Action/processing:** "ActinoAmber" object color coding
 
-* **Plane with R|G|Y bar across top:** slice|image viewer
+* **Slice Viewer | image viewer:** Plane with R|G|Y bar across top
+  
+* **Segmentation form: dyadic object that describes combination of 2D (grid) and 3D mesh representations
 
-* **Segmentation colors:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
+* * **Segmentation color:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
 
-* **Segmentation form: combination of 2D (grid) and 3D mesh representations
 
 ## Full Icon set for Slice Viewers Dark and Light Themes:
 
