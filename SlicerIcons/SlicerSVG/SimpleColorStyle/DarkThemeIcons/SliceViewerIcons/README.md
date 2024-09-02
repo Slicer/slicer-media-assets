@@ -49,6 +49,6 @@ Slicer Segmentation and Label Outline Green:
 
 ## Current Slice Viewer Mockups with new icons
 
-<img src="https://github.com/user-attachments/assets/2fe0f072-2713-47d5-af8c-79dac80a31f4" width="700">
+<img src="https://github.com/user-attachments/assets/72e3de03-a645-4d39-8743-c1182e62cc16" width="700">
 
-<img src="https://github.com/user-attachments/assets/fef1fe44-6efe-4adb-8de2-91d819976240" width="700">
+<img src="https://github.com/user-attachments/assets/20781843-80c5-4601-a012-7c490360b734" width="700">
