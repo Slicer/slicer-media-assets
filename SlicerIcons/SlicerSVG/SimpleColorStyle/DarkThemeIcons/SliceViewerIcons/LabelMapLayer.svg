@@ -29,7 +29,7 @@
      showgrid="true"
      inkscape:zoom="12.951613"
      inkscape:cx="30.729763"
-     inkscape:cy="24.745953"
+     inkscape:cy="24.745952"
      inkscape:window-width="1384"
      inkscape:window-height="773"
      inkscape:window-x="12"
@@ -74,7 +74,7 @@
        x="-41.000031"
        y="17.022823"
        transform="scale(-1,1)" /><path
-       style="display:inline;fill:none;stroke:#e5e5f6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.4"
+       style="display:inline;fill:none;stroke:#e5e5f6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.5"
        d="m 33.000001,17.697949 v 0.28549 -8.930824 h -24 v 24 l 7.1,5e-6 v -5e-6 0"
        id="path2"
        sodipodi:nodetypes="cccccccc" /><path
