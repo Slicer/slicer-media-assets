@@ -8,11 +8,16 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Source (volumes):** orthographic cube
 
-* **Image|view|slice:** plane with axis & 4 quadrants OR 4 voxels
+* **Image|view|slice:** 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
 
-* **Action/processing:** green/amber object color TBD
+* **Action/processing:** "Action Amber" object color coding
 
-* **Plane with bar across top:** slice|image viewer
+* **Slice Viewer | image viewer:** Plane with R|G|Y bar across top
+  
+* **Segmentation form:** dyadic object that describes combination of 2D (grid) and 3D mesh representations
+
+* **Segmentation color:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
+
 
 ## Full Icon set for Slice Viewers Dark and Light Themes:
 
@@ -20,3 +25,30 @@ Light & Dark Theme
 
 <img src="https://github.com/user-attachments/assets/0589bf3a-0e70-4c8d-9c64-1bb820b18038" width="600">
 
+## Specific Colors included Palette
+
+SliceViewer Action Amber (LightTheme):
+* RGB 237 136 0
+* HEX #ED8800FF
+
+SliceViewer Action Amber (DarkTheme):
+* RGB 250 159 0
+* HEX #FA9F00FF
+
+Slicer Segmentation and Label Grid Green (LightTheme):
+* HEX #738C79FF
+* RGB 115 140 121
+
+Slicer Segmentation and Label Grid Green (DarkTheme):
+* HEX #56695BFF
+* RGB 86 105 91
+
+Slicer Segmentation and Label Outline Green:
+* HEX #14CC42FF
+* RGB 20 204 66 
+
+## Current Slice Viewer Mockups with new icons
+
+<img src="https://github.com/user-attachments/assets/72e3de03-a645-4d39-8743-c1182e62cc16" width="700">
+
+<img src="https://github.com/user-attachments/assets/20781843-80c5-4601-a012-7c490360b734" width="700">
