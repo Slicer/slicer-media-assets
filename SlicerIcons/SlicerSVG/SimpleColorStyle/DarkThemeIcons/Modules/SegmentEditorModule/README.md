@@ -8,7 +8,7 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Segmentation colors:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
 
-* **Segmentation: 2D plane with axis & 4 quadrants OR 4 voxels and segment editor green fill.
+* **Segmentation:** 2D plane with axis & 4 quadrants OR 4 voxels and segment editor green fill.
 
 * **Image|view|slice:** 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
 
