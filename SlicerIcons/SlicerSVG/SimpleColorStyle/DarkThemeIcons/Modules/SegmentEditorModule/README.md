@@ -8,13 +8,13 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Segmentation colors:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
 
-* **Segmentation:** 2D plane with axis & 4 quadrants OR 4 voxels and segment editor green fill in some|all.
+* **Segmentation:** green-outlined 2D plane|polygon with filled voxels and grid 
 
-* **Image|view|slice:** 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
+* **Image|view|slice:** theme-stroke-outlined 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
 
 * **Action/processing:** "Action Amber" object color coding.
   
-* **Segmentation vignette:** outlined filled area filled with segment editor green fill
+* **Segmentation vignette:** a part of segmentation shown as polygon filled with segment editor green
 
 
 ## Full Icon set for SegmentEditor Module Dark and Light Themes:
