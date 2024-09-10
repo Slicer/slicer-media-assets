@@ -21,7 +21,7 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 Light & Dark Theme 
 
-<img src="https://github.com/user-attachments/assets/ee552b6f-8df3-4039-8837-d509c228ee22" width="600">
+<img src="(https://github.com/user-attachments/assets/54ef0d97-963c-44af-bf53-98a53a63dc91" width="600">
 
 ## Specific Colors included Palette
 
