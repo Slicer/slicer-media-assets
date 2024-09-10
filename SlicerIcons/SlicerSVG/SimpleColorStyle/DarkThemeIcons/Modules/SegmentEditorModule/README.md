@@ -56,9 +56,9 @@ Icons for creating segments
 <img src="https://github.com/user-attachments/assets/3661f16f-5b2c-4a6d-9a12-b134628ea16f" width="600">
 
 Icons for adjusting & processing segments:
-Note two versions for fill-between-slices.
+Note multiple versions for several icons.
 
-<img src="https://github.com/user-attachments/assets/e6643000-05e9-48b1-8713-435c3f3f517a" width="600">
+<img src="https://github.com/user-attachments/assets/426a9fa2-724a-40ba-a31e-697cc5600ce6" width="600">
 
 TODO: discuss comments/suggestions for draft icons.
 
