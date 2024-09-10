@@ -53,7 +53,7 @@ Top level icons for Display, Navigation, Basic UI ops
 
 Icons for creating segments
 
-<img src="https://github.com/user-attachments/assets/5549a263-9033-435a-843e-08b2bf47c490" width="600">
+<img src="https://github.com/user-attachments/assets/3661f16f-5b2c-4a6d-9a12-b134628ea16f" width="600">
 
 Icons for adjusting & processing segments:
 Note two versions for fill-between-slices.
