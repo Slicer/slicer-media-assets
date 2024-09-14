@@ -8,20 +8,20 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * **Segmentation colors:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
 
-* **Segmentation:** 2D plane with axis & 4 quadrants OR 4 voxels and segment editor green fill in some|all.
+* **Segmentation:** green-outlined 2D plane|polygon with filled voxels and grid 
 
-* **Image|view|slice:** 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
+* **Image|view|slice:** theme-stroke-outlined 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels 
 
 * **Action/processing:** "Action Amber" object color coding.
   
-* **Segmentation vignette:** outlined filled area filled with segment editor green fill
+* **Segmentation vignette:** a part of segmentation shown as polygon filled with segment editor green
 
 
 ## Full Icon set for SegmentEditor Module Dark and Light Themes:
 
 Light & Dark Theme 
 
-<img src="https://github.com/user-attachments/assets/ee552b6f-8df3-4039-8837-d509c228ee22" width="600">
+<img src="https://github.com/user-attachments/assets/54ef0d97-963c-44af-bf53-98a53a63dc91" width="600">
 
 ## Specific Colors included Palette
 
@@ -53,12 +53,12 @@ Top level icons for Display, Navigation, Basic UI ops
 
 Icons for creating segments
 
-<img src="https://github.com/user-attachments/assets/5549a263-9033-435a-843e-08b2bf47c490" width="600">
+<img src="https://github.com/user-attachments/assets/3661f16f-5b2c-4a6d-9a12-b134628ea16f" width="600">
 
 Icons for adjusting & processing segments:
-Note two versions for fill-between-slices.
+Note multiple versions for several icons.
 
-<img src="https://github.com/user-attachments/assets/e6643000-05e9-48b1-8713-435c3f3f517a" width="600">
+<img src="https://github.com/user-attachments/assets/426a9fa2-724a-40ba-a31e-697cc5600ce6" width="600">
 
 TODO: discuss comments/suggestions for draft icons.
 
