@@ -6,7 +6,7 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 ## Icon set symbolics
 
-* **Segmentation colors:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen for outline
+* **Segmentation colors:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color and SegmentationAndLabelOutlineGreen used here to indicate direct action like draw, paint, erase, seed.
 
 * **Segmentation:** green-outlined 2D plane|polygon with filled voxels and grid 
   
