@@ -23,11 +23,11 @@ Light & Dark Theme
 
 24x24 px res
 
-<img src="https://github.com/user-attachments/assets/b4edc67e-41d2-46c8-9b84-7f9afd16fb89" width="400">
+<img src="https://github.com/user-attachments/assets/06b9b8a5-53d8-482a-bcc6-e607f6960d84" width="400">
 
 48x48 px res
 
-<img src="https://github.com/user-attachments/assets/59f31cc6-a957-437f-b468-979c43e90e64" width="600">
+<img src="https://github.com/user-attachments/assets/b578dfbb-e196-45c0-bea7-5f37ecc84828" width="600">
 
 ## Specific Colors included Palette
 
@@ -51,7 +51,7 @@ Top level icons for Display, Navigation, Basic UI ops
 
 Icons for basic tools to create & edit segments
 
-<img src="https://github.com/user-attachments/assets/15026abd-f985-467e-99b6-3c09c6b156b9" width="600">
+<img src="https://github.com/user-attachments/assets/4e200fec-4533-4ad0-b1ec-a25373798109" width="600">
 
 Icons for advanced tools for adjusting & processing segments:
 
