@@ -23,6 +23,10 @@ Light & Dark Theme
 
 <img src="https://github.com/user-attachments/assets/5fb4df59-09f3-48f3-b72f-010b233713df" width="600">
 
+24x24 px res
+
+<img src="https://github.com/user-attachments/assets/8ab9e55f-c015-45b6-8a0b-a2ebd3ec1ece" width="400">
+
 ## Specific Colors included Palette
 
 Slicer Segmentation and Label Grid Green (LightTheme):
