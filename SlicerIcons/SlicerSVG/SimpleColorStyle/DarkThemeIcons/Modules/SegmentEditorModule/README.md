@@ -21,11 +21,13 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 Light & Dark Theme 
 
-<img src="https://github.com/user-attachments/assets/5fb4df59-09f3-48f3-b72f-010b233713df" width="600">
-
 24x24 px res
 
-<img src="https://github.com/user-attachments/assets/8ab9e55f-c015-45b6-8a0b-a2ebd3ec1ece" width="400">
+<img src="https://github.com/user-attachments/assets/b4edc67e-41d2-46c8-9b84-7f9afd16fb89" width="400">
+
+48x48 px res
+
+<img src="https://github.com/user-attachments/assets/59f31cc6-a957-437f-b468-979c43e90e64" width="600">
 
 ## Specific Colors included Palette
 
