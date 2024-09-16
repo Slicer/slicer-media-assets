@@ -55,7 +55,7 @@ Icons for basic tools to create & edit segments
 
 Icons for advanced tools for adjusting & processing segments:
 
-<img src="https://github.com/user-attachments/assets/fa263d48-4d48-4fdd-83de-95b406600b17" width="600">
+<img src="https://github.com/user-attachments/assets/791ef253-d672-4479-ba5b-5e4da4a0f7b0" width="600">
 
 TODO: discuss comments/suggestions.
 
