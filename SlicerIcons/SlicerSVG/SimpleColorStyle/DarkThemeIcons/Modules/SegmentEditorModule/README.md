@@ -12,7 +12,7 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
   
 * **Segmentation vignette:** a part of segmentation shown as polygon filled with "SegmentationEditorGreen". Outline only along edge of segmentation, but not where it is cropped from view in the vignette.
 
-* * **Direct Action** "SegmentationAndLabelOutlineGreen" is used to indicate direct action like draw, paint, erase, seed, etc.
+* **Direct Action** "SegmentationAndLabelOutlineGreen" is used to indicate direct action like draw, paint, erase, seed, etc.
  
 * **Image|view|slice:** theme-stroke-outlined 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels
 
@@ -51,11 +51,15 @@ Top level icons for Display, Navigation, Basic UI ops
 
 Icons for basic tools to create & edit segments
 
-<img src="https://github.com/user-attachments/assets/4e200fec-4533-4ad0-b1ec-a25373798109" width="600">
+<img src="https://github.com/user-attachments/assets/6e6a85a3-8048-4e70-b5c7-1d91d8f8c08f" width="600">
 
 Icons for advanced tools for adjusting & processing segments:
 
-<img src="https://github.com/user-attachments/assets/791ef253-d672-4479-ba5b-5e4da4a0f7b0" width="600">
+<img src="https://github.com/user-attachments/assets/aa6dc9ab-6459-4439-9af4-529ab2fbe524" width="600">
+
+Icons for segment editor extra effects
+
+<img src="https://github.com/user-attachments/assets/925020c0-d946-489e-ba33-d18609d4b4a2" width="600">
 
 TODO: discuss comments/suggestions.
 
