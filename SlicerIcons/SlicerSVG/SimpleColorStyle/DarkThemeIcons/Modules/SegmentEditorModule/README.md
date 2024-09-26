@@ -25,11 +25,11 @@ Light & Dark Theme
 
 24x24 px res
 
-<img src="https://github.com/user-attachments/assets/8861b2d8-6ab3-4c6c-b500-ec9f3cc3a652" width="400">
+<img src="https://github.com/user-attachments/assets/866bf52c-1da4-4f4a-84e3-0b39f41fdeea" width="400">
 
 48x48 px res
 
-<img src="https://github.com/user-attachments/assets/0894283d-3410-469f-8ff7-41cec48c2cf4" width="600">
+<img src="https://github.com/user-attachments/assets/01f70361-7846-48ce-8896-28f605bb4a19" width="600">
 
 ## Specific Colors included Palette
 
