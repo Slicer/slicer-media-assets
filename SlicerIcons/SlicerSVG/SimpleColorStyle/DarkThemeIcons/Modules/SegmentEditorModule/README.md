@@ -4,7 +4,7 @@ Below is a current snapshot of icons for Slicer's Segment Editor Module. Please 
 
 To create NEW icons to add to this set, please follow [this simple workflow NOT YET LINKED]. The workflow will refer icon designers to Slicer's [Icon Design Guildelines] and Slicer's [Color Palette] to ensure new icons are visually compatible with Slicer's icons and that they work well in both Dark and Light Themes.
 
-## Icon set symbolics
+## Icon set symbolics 
 
 * **Segmentation colors:** "SegmentationEditorGreen" fill color, "SegmentationAndLabelGridGreen" grid color
 
@@ -13,6 +13,8 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 * **Segmentation vignette:** a part of segmentation shown as polygon filled with "SegmentationEditorGreen". Outline only along edge of segmentation, but not where it is cropped from view in the vignette.
 
 * **Direct Action** "SegmentationAndLabelOutlineGreen" is used to indicate direct action like draw, paint, erase, seed, etc.
+
+* **Seed created by Direct Action** Clicking in a particular location to create a seed or select a (local) region within an image for processing is shown as a small "SegmentationAndLabelOutlineGreen" shape (rounded square or circle) that marks the location clicked, surrounded by an outer "shell" with "SegmentationEditorGreen" fill. This symbol is used in icons for "FastMarching", "GrowFromSeed" and "LocalThreshold".
  
 * **Image|view|slice:** theme-stroke-outlined 2D plane with (if resolution permits) axis & 4 quadrants OR 4 voxels
 
@@ -23,11 +25,11 @@ Light & Dark Theme
 
 24x24 px res
 
-<img src="https://github.com/user-attachments/assets/8861b2d8-6ab3-4c6c-b500-ec9f3cc3a652" width="400">
+<img src="https://github.com/user-attachments/assets/866bf52c-1da4-4f4a-84e3-0b39f41fdeea" width="400">
 
 48x48 px res
 
-<img src="https://github.com/user-attachments/assets/0894283d-3410-469f-8ff7-41cec48c2cf4" width="600">
+<img src="https://github.com/user-attachments/assets/01f70361-7846-48ce-8896-28f605bb4a19" width="600">
 
 ## Specific Colors included Palette
 
