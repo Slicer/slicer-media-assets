@@ -33,6 +33,29 @@ Light & Dark Theme
 |<img src="../../DarkThemeIcons/SliceViewerIcons/EachSegmentVisibility.svg"> | DarkTheme EachSegmentVisibility |
 |<img src="../../DarkThemeIcons/SliceViewerIcons/ForegroundLayer.svg"> | DarkTheme ForegroundLayer |
 |<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayFill.svg"> | DarkTheme LabelMapDisplayFill |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayFillAndOutline.svg"> | DarkTheme LabelMapDisplayFillAndOutline |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayOutline.svg"> | DarkTheme LabelMapDisplayOutline |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapLayer.svg"> | DarkTheme LabelMapLayer |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LightboxView.svg"> | DarkTheme LightboxView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/OrientationMarker.svg"> | DarkTheme OrientationMarker |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ResetFieldOfView.svg"> | DarkTheme ResetFieldOfView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/RotateToVolumePlane.svg"> | DarkTheme RotateToVolumePlane |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/RulerDisplayOptions.svg"> | DarkTheme RulerDisplayOptions |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayFill.svg"> | DarkTheme SegmentationDisplayFill |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayFillAndOutline.svg"> | DarkTheme SegmentationDisplayFillAndOutline |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayOutline.svg"> | DarkTheme SegmentationDisplayOutline.svg |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationLayer.svg"> | DarkTheme SegmentationLayer |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Axial.svg"> | DarkTheme SlicePlanes-Axial |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Coronal.svg"> | DarkTheme SlicePlanes-Coronal |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Sagittal.svg"> | DarkTheme SlicePlanes-Sagittal |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SliceSpacing.svg"> | DarkTheme SliceSpacing |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ThickSlabReconstruction.svg"> | DarkTheme ThickSlabReconstruction |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-Interpolation.svg"> | DarkTheme ToggleOFF-Interpolation |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-MaximizeView.svg"> | DarkTheme ToggleOFF-MaximizeView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-ReformatWidget.svg"> | DarkTheme ToggleOFF-ReformatWidget |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-Interpolation.svg"> | DarkTheme ToggleON-Interpolation |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-MaximizeView.svg"> | DarkTheme ToggleON-MaximizeView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-ReformatWidget.svg"> | DarkTheme ToggleON-ReformatWidget |
 
 
 ## Specific Colors included Palette
