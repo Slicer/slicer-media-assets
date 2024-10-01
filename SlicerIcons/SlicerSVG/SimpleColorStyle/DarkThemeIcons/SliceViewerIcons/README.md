@@ -25,30 +25,57 @@ Light & Dark Theme
 
 <img src="https://github.com/user-attachments/assets/0589bf3a-0e70-4c8d-9c64-1bb820b18038" width="600">
 
-## Specific Colors included Palette
 
-SliceViewer Action Amber (LightTheme):
-* RGB 237 136 0
+|Icon |Name |
+|-----|--------|
+|<img src="../../DarkThemeIcons/SliceViewerIcons/BackgroundLayer.svg"> | DarkTheme BackgroundLayer |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/BlendMode.svg"> | DarkTheme BlendMode |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/EachSegmentVisibility.svg"> | DarkTheme EachSegmentVisibility |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ForegroundLayer.svg"> | DarkTheme ForegroundLayer |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayFill.svg"> | DarkTheme LabelMapDisplayFill |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayFillAndOutline.svg"> | DarkTheme LabelMapDisplayFillAndOutline |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayOutline.svg"> | DarkTheme LabelMapDisplayOutline |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapLayer.svg"> | DarkTheme LabelMapLayer |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LightboxView.svg"> | DarkTheme LightboxView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/OrientationMarker.svg"> | DarkTheme OrientationMarker |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ResetFieldOfView.svg"> | DarkTheme ResetFieldOfView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/RotateToVolumePlane.svg"> | DarkTheme RotateToVolumePlane |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/RulerDisplayOptions.svg"> | DarkTheme RulerDisplayOptions |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayFill.svg"> | DarkTheme SegmentationDisplayFill |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayFillAndOutline.svg"> | DarkTheme SegmentationDisplayFillAndOutline |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayOutline.svg"> | DarkTheme SegmentationDisplayOutline.svg |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationLayer.svg"> | DarkTheme SegmentationLayer |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Axial.svg"> | DarkTheme SlicePlanes-Axial |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Coronal.svg"> | DarkTheme SlicePlanes-Coronal |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Sagittal.svg"> | DarkTheme SlicePlanes-Sagittal |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/SliceSpacing.svg"> | DarkTheme SliceSpacing |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ThickSlabReconstruction.svg"> | DarkTheme ThickSlabReconstruction |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-Interpolation.svg"> | DarkTheme ToggleOFF-Interpolation |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-MaximizeView.svg"> | DarkTheme ToggleOFF-MaximizeView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-ReformatWidget.svg"> | DarkTheme ToggleOFF-ReformatWidget |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-Interpolation.svg"> | DarkTheme ToggleON-Interpolation |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-MaximizeView.svg"> | DarkTheme ToggleON-MaximizeView |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-ReformatWidget.svg"> | DarkTheme ToggleON-ReformatWidget |
+
+
+## Specific Colors included in SlicerSimplePalette
+
+SliceViewer Action Amber (SWAP / LightTheme):
 * HEX #ED8800FF
 
-SliceViewer Action Amber (DarkTheme):
-* RGB 250 159 0
+SliceViewer Action Amber (SWAP / DarkTheme):
 * HEX #FA9F00FF
 
-Slicer Segmentation and Label Grid Green (LightTheme):
+Slicer Segmentation and Label Grid Green (SWAP / LightTheme):
 * HEX #738C79FF
-* RGB 115 140 121
 
-Slicer Segmentation and Label Grid Green (DarkTheme):
+Slicer Segmentation and Label Grid Green (SWAP / DarkTheme):
 * HEX #56695BFF
-* RGB 86 105 91
 
-Slicer Segmentation and Label Outline Green:
+Slicer Segmentation and Label Outline Green (GLOBAL / Both themes):
 * HEX #14CC42FF
-* RGB 20 204 66 
 
-## Current Slice Viewer Mockups with new icons
+Slicer Segmentation Primary Fill Green (GLOBAL / Both themes):
+* HEX #ABD4B5FF
 
-<img src="https://github.com/user-attachments/assets/72e3de03-a645-4d39-8743-c1182e62cc16" width="700">
 
-<img src="https://github.com/user-attachments/assets/20781843-80c5-4601-a012-7c490360b734" width="700">

@@ -35,24 +35,7 @@ Light & Dark Theme
 
 <img src="https://github.com/user-attachments/assets/c672b4b1-5c5a-41bd-ae29-d4d2001a07bc" width="600">
 
-## Specific Colors included in SlicerSimplePalette
-
-Slicer SegmentationandLabelGridGreen SWAP color (LightTheme):
-* HEX ##738C79FF
-
-Slicer SegmentationandLabelGridGreen SWAP color (DarkTheme):
-* HEX #56695BFF
-
-Slicer SegmentationPrimaryDirectActionGreen GLOBAL color (used to highlight segment editor direct action like seed/paint/draw/erase in tools):
-* HEX #28B84DFF
-
-Slicer SegmentationSecondaryFillYellow GLOBAL color (used to indicate an additional label or segmentation)
-* HEX  #f9e883FF
-
-Slicer SegmentationSecondaryOutlineYellow (used to indicate an additional label or segmentation)
-* HEX #d1a718
-
-## Current Slice Viewer Mockups with new icons
+## Icons, categories and names:
 
 Top level icons for Display, Navigation, Basic UI ops
 
@@ -70,5 +53,21 @@ Icons for segment editor extra effects
 
 <img src="https://github.com/user-attachments/assets/d8a2067d-49f6-4ca0-8a18-a24708e87b5d" width="600">
 
-TODO: discuss comments/suggestions.
+## Specific Colors included in SlicerSimplePalette
+
+Slicer SegmentationandLabelGridGreen SWAP color (LightTheme):
+* HEX ##738C79FF
+
+Slicer SegmentationandLabelGridGreen SWAP color (DarkTheme):
+* HEX #56695BFF
+
+Slicer SegmentationPrimaryDirectActionGreen GLOBAL color (used to highlight segment editor direct action like seed/paint/draw/erase in tools):
+* HEX #28B84DFF
+
+Slicer SegmentationSecondaryFillYellow GLOBAL color (used to indicate an additional label or segmentation)
+* HEX  #f9e883FF
+
+Slicer SegmentationSecondaryOutlineYellow (used to indicate an additional label or segmentation)
+* HEX #d1a718
+
 
