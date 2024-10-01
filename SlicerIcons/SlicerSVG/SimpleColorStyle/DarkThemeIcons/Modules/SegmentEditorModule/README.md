@@ -35,8 +35,7 @@ Light & Dark Theme
 
 <img src="https://github.com/user-attachments/assets/c672b4b1-5c5a-41bd-ae29-d4d2001a07bc" width="600">
 
-
-## Current Slice Viewer Mockups with new icons
+## Icons, categories and names:
 
 Top level icons for Display, Navigation, Basic UI ops
 
