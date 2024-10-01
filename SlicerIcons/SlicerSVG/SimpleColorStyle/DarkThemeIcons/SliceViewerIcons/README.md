@@ -25,12 +25,15 @@ Light & Dark Theme
 
 <img src="https://github.com/user-attachments/assets/0589bf3a-0e70-4c8d-9c64-1bb820b18038" width="600">
 
-TODO: want to create a table here for icons and names: solve bg color problem
+
 |Icon |Name |
 |-----|--------|
 |<img src="../../DarkThemeIcons/SliceViewerIcons/BackgroundLayer.svg"> | DarkTheme BackgroundLayer |
-|<img src="../../LightThemeIcons/SliceViewerIcons/BackgroundLayer.svg">  | LightTheme BackgroundLayer |
-TODO: Not going to work unless I can find a way to set cell background color in this table... 
+|<img src="../../DarkThemeIcons/SliceViewerIcons/BlendMode.svg"> | DarkTheme BlendMode |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/EachSegmentVisibility.svg"> | DarkTheme EachSegmentVisibility |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/ForegroundLayer.svg"> | DarkTheme ForegroundLayer |
+|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayFill.svg"> | DarkTheme LabelMapDisplayFill |
+
 
 ## Specific Colors included Palette
 
