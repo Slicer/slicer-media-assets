@@ -4,7 +4,7 @@ This file contains information about the Slicer Icon Palette.
 
  **SLICER SIMPLE PALETTE (newest addition**) Has a set of only 6 "SWAP" colors that switch between dark and light themes and a limited set of "GLOBAL" colors that are used across themes -- no changes required. Additional global colors can be added by module authors, and should be chosen to have good appearance in any theme.
 
-<img src="https://github.com/user-attachments/assets/876e4039-a70e-44f0-8f40-1b364b880e50" width="600">
+<img src="https://github.com/user-attachments/assets/b20b284c-8b09-48e4-a4ab-f35e7a5c78dc" width="600">
 
 ** NOTE: Adding new custom colors for icons may require updates to the the following items:
         -SlicerCustomPalette.gpl,csv,tsv, or
