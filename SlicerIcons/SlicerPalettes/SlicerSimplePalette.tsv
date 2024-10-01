@@ -7,6 +7,7 @@ SIMPLE (swap)	Swap-ActionAmber		#FA9F00		#ED8800
 SIMPLE (global)	MarkupsMarkerRed		#FD5959		#FD5959
 SIMPLE (swap)	SegmentationAndLabelGridGreen		#56695B		#738C79
 SIMPLE (global)	SegmentationPrimaryFillGreen		#abd4b5		#abd4b5
+SIMPLE (global)	SegmentationAndLabelOutlineGreen		#14CC42		#14CC42
 SIMPLE (global)	SegmentationPrimaryDirectActionGreen		#28b84d		#28b84d
 SIMPLE (global)	SegmentationSecondaryFillYellow		#f9e883		#f9e883
 SIMPLE (global)	SegmentationSeondaryOutlineYellow		#d1a718		#d1a718

@@ -31,6 +31,7 @@ Columns: 6
 #
 253  89  89 #FD5959	Global-MarkupsMarkerRed
 171 212 181 #ABD4B5	Global-SegmentationPrimaryFillGreen
+ 20 204	 66 #14CC42	Global-SegmentationAndLabelOutlineGreen
  40 184	 77 #28B84D	Global-SegmentationPrimaryDirectActionGreen
 249 232	131 #F9E883	Global-SegmentationSecondaryFillYellow
 209 167	 24 #D1A718	Global-SegmentationSecondaryOutlineYellow
