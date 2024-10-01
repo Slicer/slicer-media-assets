@@ -58,30 +58,24 @@ Light & Dark Theme
 |<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-ReformatWidget.svg"> | DarkTheme ToggleON-ReformatWidget |
 
 
-## Specific Colors included Palette
+## Specific Colors included in SlicerSimplePalette
 
-SliceViewer Action Amber (LightTheme):
-* RGB 237 136 0
+SliceViewer Action Amber (SWAP / LightTheme):
 * HEX #ED8800FF
 
-SliceViewer Action Amber (DarkTheme):
-* RGB 250 159 0
+SliceViewer Action Amber (SWAP / DarkTheme):
 * HEX #FA9F00FF
 
-Slicer Segmentation and Label Grid Green (LightTheme):
+Slicer Segmentation and Label Grid Green (SWAP / LightTheme):
 * HEX #738C79FF
-* RGB 115 140 121
 
-Slicer Segmentation and Label Grid Green (DarkTheme):
+Slicer Segmentation and Label Grid Green (SWAP / DarkTheme):
 * HEX #56695BFF
-* RGB 86 105 91
 
-Slicer Segmentation and Label Outline Green:
+Slicer Segmentation and Label Outline Green (GLOBAL / Both themes):
 * HEX #14CC42FF
-* RGB 20 204 66 
 
-## Current Slice Viewer Mockups with new icons
+Slicer Segmentation Primary Fill Green (GLOBAL / Both themes):
+* HEX #ABD4B5FF
 
-<img src="https://github.com/user-attachments/assets/72e3de03-a645-4d39-8743-c1182e62cc16" width="700">
 
-<img src="https://github.com/user-attachments/assets/20781843-80c5-4601-a012-7c490360b734" width="700">
