@@ -6,11 +6,17 @@
 
 Below is a current snapshot of icons for Slicer's Slice Viewers. 
 
-<!--- please provide a link to design guidelines and templates -->
+<!--- please provide a link to design guidelines, palette files and templates -->
 
-To create NEW icons to add to this set, please follow [this simple workflow NOT YET LINKED]. The workflow will refer icon designers to Slicer's [Icon Design Guildelines] and Slicer's [Color Palette] to ensure new icons are visually compatible with Slicer's icons and that they work well in both Dark and Light Themes.
+To create NEW icons to add to this set, please review the following resources:
 
-<!--- list all symbolic patterns new icons in this set should adhere to -->
+* the workflow and guidelines in Slicer's [Icon Design Guildelines]
+* Slicer's [Color Palette], and
+* Slicer's [Icon Template] and [Icon documentation Template]
+
+This will help keep new icons visually compatible with Slicer's icons, make sure they work well in both Dark and Light Themes, and help keep documentation of Slicer's icons consistent and current.
+
+<!--- list all symbolic patterns that NEW icons in this set should adhere to -->
 
 ## Icon set symbolics
 
@@ -22,7 +28,7 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 * ** visual element N
   
-<!--- -->
+<!--- Optional: provide screen shot of icons included in this set.-->
 
 ## Full Icon set for Slice Viewers Dark and Light Themes:
 
@@ -32,17 +38,17 @@ Light & Dark Theme
 
 <!--- if relevant, provide current table of Dark Theme versions of svg image data -->
 
-|Icon |Name |
+|Icon SVG |Name |
 |-----|--------|
-| 00 | 01 |
-| 10 | 11 |
+| link to A.svg | A |
+| link to B.svg | B |
 | ... | ... |
-| N0 | N1 |
+| link to N.Svg | N |
 
 
-<!--- if appropriate, include any special colors used in image data -->
+<!--- if appropriate, include any special colors used in image data that NEW icons in this set should use -->
 
-<!--- note whether they are included in palette, SWAP|GLOBAL. -->
+<!--- note whether they have been included in SlicerSimplePalette, and if they are SWAP|GLOBAL. -->
 
 ## Specific Colors included in SlicerSimplePalette
 
