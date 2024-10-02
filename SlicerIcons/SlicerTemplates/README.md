@@ -28,61 +28,32 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 Light & Dark Theme 
 
-<img src="https://github.com/user-attachments/assets/0589bf3a-0e70-4c8d-9c64-1bb820b18038" width="600">
+
 
 <!--- if relevant, provide current table of Dark Theme versions of svg image data -->
 
 |Icon |Name |
 |-----|--------|
-|<img src="../../DarkThemeIcons/SliceViewerIcons/BackgroundLayer.svg"> | DarkTheme BackgroundLayer |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/BlendMode.svg"> | DarkTheme BlendMode |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/EachSegmentVisibility.svg"> | DarkTheme EachSegmentVisibility |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ForegroundLayer.svg"> | DarkTheme ForegroundLayer |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayFill.svg"> | DarkTheme LabelMapDisplayFill |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayFillAndOutline.svg"> | DarkTheme LabelMapDisplayFillAndOutline |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapDisplayOutline.svg"> | DarkTheme LabelMapDisplayOutline |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/LabelMapLayer.svg"> | DarkTheme LabelMapLayer |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/LightboxView.svg"> | DarkTheme LightboxView |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/OrientationMarker.svg"> | DarkTheme OrientationMarker |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ResetFieldOfView.svg"> | DarkTheme ResetFieldOfView |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/RotateToVolumePlane.svg"> | DarkTheme RotateToVolumePlane |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/RulerDisplayOptions.svg"> | DarkTheme RulerDisplayOptions |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayFill.svg"> | DarkTheme SegmentationDisplayFill |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayFillAndOutline.svg"> | DarkTheme SegmentationDisplayFillAndOutline |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationDisplayOutline.svg"> | DarkTheme SegmentationDisplayOutline.svg |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SegmentationLayer.svg"> | DarkTheme SegmentationLayer |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Axial.svg"> | DarkTheme SlicePlanes-Axial |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Coronal.svg"> | DarkTheme SlicePlanes-Coronal |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SlicePlanes-Sagittal.svg"> | DarkTheme SlicePlanes-Sagittal |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/SliceSpacing.svg"> | DarkTheme SliceSpacing |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ThickSlabReconstruction.svg"> | DarkTheme ThickSlabReconstruction |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-Interpolation.svg"> | DarkTheme ToggleOFF-Interpolation |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-MaximizeView.svg"> | DarkTheme ToggleOFF-MaximizeView |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleOFF-ReformatWidget.svg"> | DarkTheme ToggleOFF-ReformatWidget |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-Interpolation.svg"> | DarkTheme ToggleON-Interpolation |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-MaximizeView.svg"> | DarkTheme ToggleON-MaximizeView |
-|<img src="../../DarkThemeIcons/SliceViewerIcons/ToggleON-ReformatWidget.svg"> | DarkTheme ToggleON-ReformatWidget |
+| 00 | 01 |
+| 10 | 11 |
+| ... | ... |
+| N0 | N1 |
+
 
 <!--- if appropriate, include any special colors used in image data -->
 
+<!--- note whether they are included in palette, SWAP|GLOBAL. -->
+
 ## Specific Colors included in SlicerSimplePalette
 
-SliceViewer Action Amber (SWAP / LightTheme):
-* HEX #ED8800FF
+ColorName1 (SWAP / LightTheme):
+* HEX #000000
 
-SliceViewer Action Amber (SWAP / DarkTheme):
-* HEX #FA9F00FF
+ColorName1 (SWAP / DarkTheme):
+* HEX #ffffff
 
-Slicer Segmentation and Label Grid Green (SWAP / LightTheme):
-* HEX #738C79FF
+ColorName2 (GLOBAL / Both themes):
+* HEX #123456
 
-Slicer Segmentation and Label Grid Green (SWAP / DarkTheme):
-* HEX #56695BFF
-
-Slicer Segmentation and Label Outline Green (GLOBAL / Both themes):
-* HEX #14CC42FF
-
-Slicer Segmentation Primary Fill Green (GLOBAL / Both themes):
-* HEX #ABD4B5FF
 
 
