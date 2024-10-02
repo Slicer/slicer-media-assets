@@ -23,7 +23,13 @@ To create NEW icons to add to this set, please follow [this simple workflow NOT 
 
 Light & Dark Theme 
 
-<img src="https://github.com/user-attachments/assets/0589bf3a-0e70-4c8d-9c64-1bb820b18038" width="600">
+24x24 pix resolution
+
+<img src="https://github.com/user-attachments/assets/da1c8510-5bd9-4097-ad08-f8f5c0a5ceb6" width="450">
+
+48x48 pix resolution
+
+<img src="https://github.com/user-attachments/assets/0b6ebcc0-22fa-496c-b403-fc2e485555cc" width="600">
 
 
 |Icon |Name |
