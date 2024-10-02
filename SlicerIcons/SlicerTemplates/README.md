@@ -8,11 +8,11 @@ Below is a current snapshot of icons for Slicer's Slice Viewers.
 
 <!--- please provide a link to design guidelines, palette files and templates -->
 
-To create NEW icons to add to this set, please review the following resources:
+To create NEW icons to add to this set, please see the following resources:
 
-* the workflow and guidelines in Slicer's [Icon Design Guildelines]
+* the workflow and design guidelines in Slicer's [Icon Design Guildelines]
 * Slicer's [Color Palette], and
-* Slicer's [Icon Template] and [Icon documentation Template]
+* Slicer templates: [Icon Template] and [Icon documentation Template]
 
 This will help keep new icons visually compatible with Slicer's icons, make sure they work well in both Dark and Light Themes, and help keep documentation of Slicer's icons consistent and current.
 
