@@ -13,6 +13,7 @@ Links to additional useful information and resources are as follows:
 Icons downloaded from Google Fonts Material Symbols Icons may be used as-is or as starting point for a new icon design. If basing a new design on one of the Material Symbols Icons, please parameterize your selected icon for download as follows:
 
 * Style = Sharp
+* Fill = 0
 * Grade 0,
 * Weight 200,
 * Optical Size = 48
@@ -27,6 +28,32 @@ Icons downloaded from Google Fonts Material Symbols Icons may be used as-is or a
 Depending on your resolution preference for designing the icon, open either Slicer's 24dp template or Slicer's 48dp template in the design software of your choice. Then import the svg into that template. If using the 48dp template, scale the entire icon by 200%. Note: as part of a font library, each icon is described by a set of closed and filled curves. Designing with the icons configured above, respecting the drawable area noted on the templates, and using Slicer's palette to create both Light and Dark themed versions will help to keep new icons visually compatible with Slicer's existing application icons.
 
 Editing these curves can be tricky, so if you're not going to use the icon exactly as-is, you may want to use it as a temporary guide for creating your own version using simple vector elements. If so, please also see the New Icon Design Recommendations below.
+
+## Visual appearance guidelines
+
+The project subscribes to the <A href="https://m3.material.io/styles/icons/designing-icons" Material-IO design principles</A>. Because of the number of icons in the Slicer application interface and the complexity of some of the concepts that Slicer's icons represent, the design guidelines allow the use of multiple colors in a limited palette, and the use of icon element fill where the developer feels it is necessary. A spare set of recommendations follow. Respecting these will keep new icons consistent with the appearance of existing set of Slicer Application Icons.
+
+###1. Icon metrics
+
+* SIZE 24x24dp: Slicer's icons are based on a 24x24dp minimum pixel-perfect size. A content-free perimeter of 2dp should be respected; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge). The 24dpIconTemplate includes a frame that marks off the padding. This frame object should be deleted before saving the final Icon's design.
+*
+* SIZE 48x48dp Template: A 48dpIconTemplate is also provided, and developers who prefer to work in this space should take care to ensure that all element metrics scale properly down to pixel-perfect 24x24dp resolution. For instance, stroke widths of 1dp in 24x24dp icon should be 2dp in a 48x48dp icon.
+  
+* CORNERS:
+  
+* STROKE:
+  
+* PERSPECTIVE:
+  
+* COMPLICATED SHAPES: If an icon requires complex details, subtle metric adjustments can be made to improve legibility. Material.io refers to these adjustments as optical corrections. Any optical correction should use the geometric forms on which all other icons are based, without skewing or distorting those shapes.
+
+
+
+
+
+## Notes on configuring SVG-Edit for icon design.
+
+One simple web tool for easy vector image design is <A href="https://svgedit.netlify.app/editor/index.html"> SVG-Edit</A>. SVG-edit is a fast, web-based, JavaScript-driven SVG drawing editor with basic functionality that works in any modern browser. It can be easily configured and used to create new, or modify existing icons for Slicer. 
 
 ## Notes on configuring INKSCAPE for icon design.
 
