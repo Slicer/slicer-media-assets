@@ -14,19 +14,6 @@ To create NEW icons to add to this set, please see the following resources:
 * Slicer's [Color Palette], and
 * Slicer templates: [Icon Template] and [Icon documentation Template]
 * And feel free to use or adapt Google's Material Symbol Icons configured for download as noted in the [Design Guidelines].
-  * Style = Sharp
-  * Grade 0,
-  * Weight 200,
-  * Optical Size = 48
-  * Select parameterized icon and from the dialog box select
-     * SVG download
-     * Color = #000000
-     * Size = 24
-     * Downlad SVG
-  * The downloaded icon may be used as-is or as starting point for a new icon design.
-  * Depending on your working preference, import the svg into Slicer's 24dp template or the 48dp template (in which the entire icon should be scaled by 200%) using the vector editing software of your choice.
-
-
 
 This will help keep new icons visually compatible with Slicer's icons, make sure they work well in both Dark and Light Themes, and help keep documentation of Slicer's icons consistent and current.
 
