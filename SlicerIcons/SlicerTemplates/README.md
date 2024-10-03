@@ -4,7 +4,7 @@
 
 <!--- summary of what lies below -->
 
-Below is a current snapshot of icons for Slicer's Slice Viewers. 
+Below is a current snapshot of icons for Slicer's whatever-the-group-of-icons-is-for. 
 
 <!--- please provide a link to design guidelines, palette files and templates -->
 
