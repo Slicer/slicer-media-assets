@@ -1,7 +1,7 @@
 
 # 3D Slicer Icon Design Guidelines
 
-Below is a brief design specification for 3D Slicer Icons in Dark and Light Themes. A simple workflow is provided for developers incorporating Google Fonts Material Symbols Icons.
+Below is a brief design specification for 3D Slicer Icons in Dark and Light Themes. A simple workflow is provided for developers creating new icons from scratch, or incorporating Google Fonts Material Symbols Icons.
 
 Links to additional useful information and resources are as follows:
 * Slicer's Palette: <A href="../SlicerPalettes/SlicerSimplePalette.gpl"> GPL format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.csv"> CSV format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.tsv"> TSV format</A>.
