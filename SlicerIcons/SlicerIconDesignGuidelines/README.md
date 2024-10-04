@@ -5,10 +5,10 @@ Below is a brief design specification for 3D Slicer Icons in Dark and Light Them
 
 Links to additional useful information and resources are as follows:
 * Slicer's Palette: <A href="../SlicerPalettes/SlicerSimplePalette.gpl"> GPL format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.csv"> CSV format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.tsv"> TSV format</A>.
-* Slicer's Templates: [24dp Icon Template], [48dp Icon Template] and [Icon documentation Template]
+* Slicer's Templates: [24x24IconTemplate], [48x48IconTemplate] and [Icon documentation Template]
 * <A href="https://fonts.google.com/icons"> Google Fonts Material Symbols Icons</A>
 
-## Developing new Slicer icons using Material Symbols Icons
+## Developing Slicer icons from Material Symbols Icons
 
 Icons downloaded from Google Fonts Material Symbols Icons may be used as-is or as starting point for a new icon design. If basing a new design on one of the Material Symbols Icons, please parameterize your selected icon for download as follows:
 
@@ -16,18 +16,32 @@ Icons downloaded from Google Fonts Material Symbols Icons may be used as-is or a
 * Fill = 0
 * Grade 0,
 * Weight 200,
-* Optical Size = 48
+* Optical Size = 24 (1dp = 1pixel)
 * Select parameterized icon and from the dialog box select
   * SVG download
-  * Color = #000000
-  * Size = 24
+  * Color = #000000 (for Light Theme), or
+  * Color = #E5E5F6 (for Dark Theme)
+  * Size = 24|48 (depending on the resolution you like to design with.)
   * Downlad SVG
+  * Rename in a Slicer-compatible way.
+ 
+If using the icon as-is, you're done! Keeping in mind that users may encounter this icon in other software they use, it's good practice to only use this icon to represent the concept it was intended for. To represent a different concept, modify the icon in some distinct way to represent your concept.
 
-## Designing with a Material Symbols Icon using the Slicer Icon template.
+## Basing a Slicer icon on a Material Symbols Icon.
 
-Depending on your resolution preference for designing the icon, open either Slicer's 24dp template or Slicer's 48dp template in the design software of your choice. Then import the svg into that template. If using the 48dp template, scale the entire icon by 200%. Note: as part of a font library, each icon is described by a set of closed and filled curves. Designing with the icons configured above, respecting the drawable area noted on the templates, and using Slicer's palette to create both Light and Dark themed versions will help to keep new icons visually compatible with Slicer's existing application icons.
+Note: as part of a font library, each Materials Symbols icon is described by a set of closed and filled curves. Designing with the icons configured as above, respecting the drawable area noted on the templates, and using Slicer's palette to create both Light and Dark themed versions will help to keep new icons visually compatible with Slicer's existing application icons. Editing these closed curves can be tricky to do well, so if you're not going to use the icon exactly as-is, you may want to use it as a temporary guide for creating your own version using simple vector elements. If so, please also see the New Icon Design Recommendations below.
 
-Editing these curves can be tricky, so if you're not going to use the icon exactly as-is, you may want to use it as a temporary guide for creating your own version using simple vector elements. If so, please also see the New Icon Design Recommendations below.
+## Using one of Slicer's templates with a Material Symbols Icon.
+
+Depending on your resolution preference for designing the icon, open either Slicer's 24x24IconTemplate template (in which 1dp = 1 pixel) or Slicer's 48x48IconTemplate (in which 1dp = 2 pixels) in the design software of your choice (specific advice will be given for Inkscape V1.3). Then import the svg into that template. If using the 48x48IconTemplate, scale the entire icon by 200% to preserve pixel-perfect rendering at Slicer's minimum 24x24dp resolution.  Each template includes a frame that indicates the content-free 2dp perimeter; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge).
+
+To create a LightTheme version of your icon, select all visual elements and set their fill color to Slicer's Default Light Theme Stroke #000000. To create a DarkTheme version of your icon, select all visual elements and set their fill color to Slicer's Default DarkTheme Stroke #E5E5F6. Finally, when you are finished with your design, the padding should be deleted before saving the new icon SVG.
+
+## Creating Slicer Icons from Scratch using a template.
+
+If using Inkscape, helpful tips for configuring Inkscape and importing Slicer's SimpleColorPalette are below.
+
+If using SVG-Edit, some helpful tips for
 
 ## Visual appearance guidelines
 
@@ -35,11 +49,11 @@ The project subscribes to the <A href="https://m3.material.io/styles/icons/desig
 
 ###1. Icon metrics
 
-* SIZE 24x24dp: Slicer's icons are based on a 24x24dp minimum pixel-perfect size. A content-free perimeter of 2dp should be respected; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge). The 24dpIconTemplate includes a frame that marks off the padding. This frame object should be deleted before saving the final Icon's design.
+* SIZE 24x24dp: Slicer's icons are based on a 24x24dp minimum pixel-perfect size. At this resolution 1dp=1pixel. If you prefer designing at a larger scale, e.g. using the 48x48IconTemplate-, A content-free perimeter of 2dp should be respected; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge). The 24dpIconTemplate includes a frame that marks off the padding. This frame object should be deleted before saving the final Icon's design.
 *
 * SIZE 48x48dp Template: A 48dpIconTemplate is also provided, and developers who prefer to work in this space should take care to ensure that all element metrics scale properly down to pixel-perfect 24x24dp resolution. For instance, stroke widths of 1dp in 24x24dp icon should be 2dp in a 48x48dp icon.
   
-* CORNERS:
+* CORNERS: <A href="https://www.youtube.com/watch?v=JXrzemHHQG0"> Rounded Corners in Inkscape 1.3 </A> 
   
 * STROKE:
   
@@ -48,12 +62,26 @@ The project subscribes to the <A href="https://m3.material.io/styles/icons/desig
 * COMPLICATED SHAPES: If an icon requires complex details, subtle metric adjustments can be made to improve legibility. Material.io refers to these adjustments as optical corrections. Any optical correction should use the geometric forms on which all other icons are based, without skewing or distorting those shapes.
 
 
-
-
-
 ## Notes on configuring SVG-Edit for icon design.
 
-One simple web tool for easy vector image design is <A href="https://svgedit.netlify.app/editor/index.html"> SVG-Edit</A>. SVG-edit is a fast, web-based, JavaScript-driven SVG drawing editor with basic functionality that works in any modern browser. It can be easily configured and used to create new, or modify existing icons for Slicer. 
+One simple web tool for easy vector image design is <A href="https://svgedit.netlify.app/editor/index.html"> SVG-Edit</A>. SVG-edit is a fast, web-based, JavaScript-driven SVG drawing editor with basic functionality that works in any modern browser. It can be easily configured and used to create new, or modify existing icons for Slicer. In the SVG-Edit pull-down menu found at the upper left of its interface and shown below, there are two useful options for setting editor preferences and document properties.
+
+NOTE:  This tool is useful for designing simple new icons, but challenging to use to modify Material Symbols Icons.
+
+### 1. EDITOR SETTINGS
+
+* Set the background color and grid color that will help you design for DarkTheme or LightTheme Icons.
+* Select "Show Rulers" and set the "Base Unit" to be pixels.
+* Also note that this is where you can toggle snap-to-grid | -object, and adjust the snapping step size.
+
+### 2. DOCUMENT PROPERTIES
+
+* Here's where to set the title of your document.
+* Set the resolution to 24x24 or 48x48 depending on your preferences.
+* 
+
+<img src="https://github.com/user-attachments/assets/bc57ab9e-dd1c-48ce-b697-3116d30ada5c" width="300">
+
 
 ## Notes on configuring INKSCAPE for icon design.
 
