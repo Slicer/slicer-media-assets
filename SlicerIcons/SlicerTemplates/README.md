@@ -1,10 +1,10 @@
 <!--- your title here -->
 
-# Slicer Document Title
+# Slicer Icon Templates
 
 <!--- summary of what lies below -->
 
-Below is a current snapshot of icons for Slicer's [whatever-the-group-of-icons-is-for]. 
+This directory contains template files for creating new Slicer Icons. These svg files can be used in the vector design software of choice. 
 
 <!--- please provide a link to design guidelines, palette files and templates, and Material Symbols Icons + config -->
 
@@ -12,7 +12,7 @@ To create NEW icons to add to this set, please see the following resources:
 
 * the workflow and design guidelines in Slicer's [Icon Design Guildelines]
 * Slicer's [Color Palette], and
-* Slicer templates: [Icon Template] and [Icon documentation Template]
+* Slicer templates: [24x24IconTemplate] , [48x48IconTemplate] and [Icon documentation Template]
 * And feel free to use or adapt Google's Material Symbol Icons configured for download as noted in the [Design Guidelines].
 
 This will help keep new icons visually compatible with Slicer's icons, make sure they work well in both Dark and Light Themes, and help keep documentation of Slicer's icons consistent and current.
