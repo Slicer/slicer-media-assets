@@ -70,7 +70,7 @@ At a minimum, respecting the following 10 requirements will help keep new design
 10. Please preview your icon in multiple resolutions and delete padding object before finalizing your work.
 
     
-###1. More on icon metrics
+##1. Hints for designing in Inkscape or SVG-Edit 
 
 * SIZE 24x24dp: Slicer's icons are based on a 24x24dp minimum pixel-perfect size. At this resolution 1dp=1pixel. If you prefer designing at a larger scale, e.g. using the 48x48IconTemplate-, A content-free perimeter of 2dp should be respected; content should be designed to fit within the 20x20dp space enclosed by the padding. 
 *
