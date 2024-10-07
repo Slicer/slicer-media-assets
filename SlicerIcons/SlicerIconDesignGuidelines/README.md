@@ -45,23 +45,37 @@ If using SVG-Edit, some helpful tips for
 
 ## Visual appearance guidelines
 
-The project subscribes to the <A href="https://m3.material.io/styles/icons/designing-icons" Material-IO design principles</A>. Because of the number of icons in the Slicer application interface and the complexity of some of the concepts that Slicer's icons represent, the design guidelines allow the use of multiple colors in a limited palette, and the use of icon element fill where the developer feels it is necessary. A spare set of recommendations follow. Respecting these will keep new icons consistent with the appearance of existing set of Slicer Application Icons.
+Slicer's most basic application UI icons are derived from Material Symbols Icons. To realistically accommodate the large and diverse community of 3D Slicer contributors without an onboard icon designer, we recommend using the <A href="https://m3.material.io/styles/icons/designing-icons" Material-IO design principles</A> as a touchstone, but there is no rigid adherance requirement.  
 
-###1. Icon metrics
+At a minimum, respecting the following 10 requirements will help keep new designs consistent with the appearance of existing set of Slicer Application Icons:
 
-* SIZE 24x24dp: Slicer's icons are based on a 24x24dp minimum pixel-perfect size. At this resolution 1dp=1pixel. If you prefer designing at a larger scale, e.g. using the 48x48IconTemplate-, A content-free perimeter of 2dp should be respected; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge). The 24dpIconTemplate includes a frame that marks off the padding. This frame object should be deleted before saving the final Icon's design.
+1. Use stroke width / feature size to ensure pixel-perfect rendering at resolution multiples of 24x24 pixels.
+   
+2. At 24x24 pixel resolution, stroke width should be 1 dp = 1 px.
+
+3. Use simple unfilled stroked elements where possible.
+
+4. If filled elements are required, use limited color and in a manner consistent with both your UI and Slicer's application UI.
+
+5. Use face-forward icons where possible and orthographic perspective where required (such as in the depiction of source volumes).
+
+6. Avoid gradients and other 3D effects.
+   
+7. Use the Stroke colors specified in Slicer's palette for both Dark and Light Themes.
+   
+8. Padding of 2dp is recommended around the 24x24dp icon perimeter. If necessary, elements (like the tip of an arrow) can sneak into the padding, but no content should extend to the edge or into the trim. Each template marks the 2dp padding for guidance.
+   
+9. Ensure your icon works well in both Dark and Light Themes.
+
+10. Please preview your icon in multiple resolutions and delete padding object before finalizing your work.
+
+    
+###1. More on icon metrics
+
+* SIZE 24x24dp: Slicer's icons are based on a 24x24dp minimum pixel-perfect size. At this resolution 1dp=1pixel. If you prefer designing at a larger scale, e.g. using the 48x48IconTemplate-, A content-free perimeter of 2dp should be respected; content should be designed to fit within the 20x20dp space enclosed by the padding. 
 *
 * SIZE 48x48dp Template: A 48dpIconTemplate is also provided, and developers who prefer to work in this space should take care to ensure that all element metrics scale properly down to pixel-perfect 24x24dp resolution. For instance, stroke widths of 1dp in 24x24dp icon should be 2dp in a 48x48dp icon.
   
-* CORNERS: <A href="https://www.youtube.com/watch?v=JXrzemHHQG0"> Rounded Corners in Inkscape 1.3 </A> 
-  
-* STROKE:
-  
-* PERSPECTIVE:
-  
-* COMPLICATED SHAPES: If an icon requires complex details, subtle metric adjustments can be made to improve legibility. Material.io refers to these adjustments as optical corrections. Any optical correction should use the geometric forms on which all other icons are based, without skewing or distorting those shapes.
-
-
 ## Notes on configuring SVG-Edit for icon design.
 
 One simple web tool for easy vector image design is <A href="https://svgedit.netlify.app/editor/index.html"> SVG-Edit</A>. SVG-edit is a fast, web-based, JavaScript-driven SVG drawing editor with basic functionality that works in any modern browser. It can be easily configured and used to create new, or modify existing icons for Slicer. In the SVG-Edit pull-down menu found at the upper left of its interface and shown below, there are two useful options for setting editor preferences and document properties.
