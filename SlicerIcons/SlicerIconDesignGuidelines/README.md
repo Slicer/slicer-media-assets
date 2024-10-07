@@ -37,11 +37,11 @@ Depending on your resolution preference for designing the icon, open either Slic
 
 To create a LightTheme version of your icon, select all visual elements and set their fill color to Slicer's Default Light Theme Stroke #000000. To create a DarkTheme version of your icon, select all visual elements and set their fill color to Slicer's Default DarkTheme Stroke #E5E5F6. Finally, when you are finished with your design, the padding should be deleted before saving the new icon SVG.
 
-## Creating Slicer Icons from Scratch using a template.
+## Creating Slicer Icons from Scratch using a template
 
 If using Inkscape, helpful tips for configuring Inkscape and importing Slicer's SimpleColorPalette are below.
 
-If using SVG-Edit, some helpful tips for
+If using SVG-Edit, some helpful tips for setting Document Properties and Editor Preferences are given, but it's mostly self-explanatory.
 
 ## Visual appearance guidelines
 
@@ -63,41 +63,18 @@ At a minimum, respecting the following 10 requirements will help keep new design
    
 7. Use the Stroke colors specified in Slicer's palette for both Dark and Light Themes.
    
-8. Padding of 2dp is recommended around the 24x24dp icon perimeter. If necessary, elements (like the tip of an arrow) can sneak into the padding, but no content should extend to the edge or into the trim. Each template marks the 2dp padding for guidance.
+8. Padding of 2dp is recommended around the 24x24dp icon perimeter. Each template indicates the 2dp padding for guidance.
    
 9. Ensure your icon works well in both Dark and Light Themes.
 
 10. Please preview your icon in multiple resolutions and delete padding object before finalizing your work.
 
     
-##1. Hints for designing in Inkscape or SVG-Edit 
+## Tips for designing in Inkscape V1.3: 
 
-* SIZE 24x24dp: Slicer's icons are based on a 24x24dp minimum pixel-perfect size. At this resolution 1dp=1pixel. If you prefer designing at a larger scale, e.g. using the 48x48IconTemplate-, A content-free perimeter of 2dp should be respected; content should be designed to fit within the 20x20dp space enclosed by the padding. 
-*
-* SIZE 48x48dp Template: A 48dpIconTemplate is also provided, and developers who prefer to work in this space should take care to ensure that all element metrics scale properly down to pixel-perfect 24x24dp resolution. For instance, stroke widths of 1dp in 24x24dp icon should be 2dp in a 48x48dp icon.
-  
-## Notes on configuring SVG-Edit for icon design.
+* SIZE 24x24px: Slicer's 24x24IconTemplate can be used if desired. Slicer's icons are based on a 24x24dp minimum pixel-perfect size. At this resolution 1dp=1pixel, so stroke width should be 1px.
 
-One simple web tool for easy vector image design is <A href="https://svgedit.netlify.app/editor/index.html"> SVG-Edit</A>. SVG-edit is a fast, web-based, JavaScript-driven SVG drawing editor with basic functionality that works in any modern browser. It can be easily configured and used to create new, or modify existing icons for Slicer. In the SVG-Edit pull-down menu found at the upper left of its interface and shown below, there are two useful options for setting editor preferences and document properties.
-
-NOTE:  This tool is useful for designing simple new icons, but challenging to use to modify Material Symbols Icons.
-
-### 1. EDITOR SETTINGS
-
-* Set the background color and grid color that will help you design for DarkTheme or LightTheme Icons.
-* Select "Show Rulers" and set the "Base Unit" to be pixels.
-* Also note that this is where you can toggle snap-to-grid | -object, and adjust the snapping step size.
-
-### 2. DOCUMENT PROPERTIES
-
-* Here's where to set the title of your document.
-* Set the resolution to 24x24 or 48x48 depending on your preferences.
-* 
-
-<img src="https://github.com/user-attachments/assets/bc57ab9e-dd1c-48ce-b697-3116d30ada5c" width="300">
-
-
-## Notes on configuring INKSCAPE for icon design.
+* SIZE 48x48px: A 48x48IconTemplate is also provided, and developers who prefer to work in this space should take care to ensure that all element metrics scale properly down to pixel-perfect 24x24dp resolution. For instance, stroke widths of 1px in 24x24 pixel icon should be 2px in a 48x48 pixel icon.
 
 ### 1. IMPORT SLICER'S PALETTE
 
@@ -105,7 +82,7 @@ NOTE:  This tool is useful for designing simple new icons, but challenging to us
 
 <img src="https://github.com/user-attachments/assets/a8bf9222-2fe5-4d08-8442-f5f545186a23" width="200">
 
-### 2. SET SOME USEFUL INKSCAPE SETTINGS PREFERENCES
+### 2. SET USEFUL INKSCAPE SETTINGS PREFERENCES
 
 **Before opening or importing an existing SVG file**, It's useful to configure some basic Inkscape Settings. Below are tips for setting interaction and document properties, and creating grids to guide “pixel-perfect” design. The preferences menu is available under Inkscape->Settings. Preferences that are particlarly useful are:
 
@@ -120,6 +97,7 @@ NOTE:  This tool is useful for designing simple new icons, but challenging to us
 Once you open an SVG file, confirm that your Document Properties are good to go:
 
 * In File->Document properties, under the Display Tab, set resolution and units:
+  
 * ----WORK IN PROGRESS----
 Set up your page format to be “Custom”, 
 Set your Page units to be pixels 
@@ -141,52 +119,6 @@ In File->Document properties, under the Color Tab, set up the correct color prof
 Inkscape’s default color profile is sRGB (Inkscape’s default)
 Inkscape’s color profile functionality is brittle, so if you haven’t ever changed it, for print or whatever, just leave it alone.
 
-
-
-<!--- list all symbolic patterns that NEW icons in this set should adhere to -->
-
-## Icon set symbolics
-
-* ** visual element 1
-
-* ** visual element 2
-
-* ** ...
-
-* ** visual element N
-  
-<!--- Optional: provide screen shot of icons included in this set.-->
-
-## Full Icon set for Slice Viewers Dark and Light Themes:
-
-Light & Dark Theme 
-
-
-
-<!--- if relevant, provide current table of Dark Theme versions of svg image data -->
-
-|Icon SVG |Name |
-|-----|--------|
-| link to A.svg | A |
-| link to B.svg | B |
-| ... | ... |
-| link to N.Svg | N |
-
-
-<!--- if appropriate, include any special colors used in image data that NEW icons in this set should use -->
-
-<!--- note whether they have been included in SlicerSimplePalette, and if they are SWAP|GLOBAL. -->
-
-## Specific Colors included in SlicerSimplePalette
-
-ColorName1 (SWAP / LightTheme):
-* HEX #000000
-
-ColorName1 (SWAP / DarkTheme):
-* HEX #ffffff
-
-ColorName2 (GLOBAL / Both themes):
-* HEX #123456
 
 
 
