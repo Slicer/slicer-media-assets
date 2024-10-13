@@ -5,7 +5,7 @@ Below is a brief design specification for 3D Slicer Icons in Dark and Light Them
 
 Links to additional useful information and resources are as follows:
 * Slicer's Palette: <A href="../SlicerPalettes/SlicerSimplePalette.gpl"> GPL format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.csv"> CSV format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.tsv"> TSV format</A>.
-* Slicer's Templates: [24x24IconTemplate], [48x48IconTemplate] and [Icon documentation Template]
+* Slicer's Templates: [24x24SlicerIconTemplate], [48x48SlicerIconTemplate] and [Icon documentation Template]
 * <A href="https://fonts.google.com/icons"> Google Fonts Material Symbols Icons</A>
 
 ## Developing Slicer icons from Material Symbols Icons
@@ -21,7 +21,7 @@ Icons downloaded from Google Fonts Material Symbols Icons may be used as-is or a
   * SVG download
   * Color = #000000 (for Light Theme), or
   * Color = #E5E5F6 (for Dark Theme)
-  * Size = 24|48 (depending on the resolution you like to design with.)
+  * Size = 24 
   * Downlad SVG
   * Rename in a Slicer-compatible way.
  
@@ -31,11 +31,36 @@ If using the icon as-is, you're done! Keeping in mind that users may encounter t
 
 Note: as part of a font library, each Materials Symbols icon is described by a set of closed and filled curves. Designing with the icons configured as above, respecting the drawable area noted on the templates, and using Slicer's palette to create both Light and Dark themed versions will help to keep new icons visually compatible with Slicer's existing application icons. Editing these closed curves can be tricky to do well, so if you're not going to use the icon exactly as-is, you may want to use it as a temporary guide for creating your own version using simple vector elements. If so, please also see the New Icon Design Recommendations below.
 
-## Using one of Slicer's templates with a Material Symbols Icon.
+## Using one of Slicer's 24x24 px template with a Material Symbols Icon.
 
-Depending on your resolution preference for designing the icon, open either Slicer's 24x24IconTemplate template (in which 1dp = 1 pixel) or Slicer's 48x48IconTemplate (in which 1dp = 2 pixels) in the design software of your choice (specific advice will be given for Inkscape V1.3). Then import the svg into that template. If using the 48x48IconTemplate, scale the entire icon by 200% to preserve pixel-perfect rendering at Slicer's minimum 24x24dp resolution.  Each template includes a frame that indicates the content-free 2dp perimeter; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge).
+Open Slicer's 24x24IconTemplate template (in which 1dp = 1 pixel) in the design software of your choice (specific advice will be given for Inkscape V1.3). Then import the svg into that template.  The template includes a frame that indicates padding, the content-free 2dp perimeter; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge).
 
 To create a LightTheme version of your icon, select all visual elements and set their fill color to Slicer's Default Light Theme Stroke #000000. To create a DarkTheme version of your icon, select all visual elements and set their fill color to Slicer's Default DarkTheme Stroke #E5E5F6. Finally, when you are finished with your design, the padding should be deleted before saving the new icon SVG.
+
+## Basing a new icon on an existing Slicer Icon.
+Slicer SVG icons may be saved as a 24x24 pixel icon, or as a 48x48 pixel icon. Each SVG file is a text file, and the width and height of the document is usually given at the top. For instance, the file will read:
+
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   ...
+
+or
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   ...
+
+If you are not working with a template, remember to respect 2dpi padding around the perimeter of the icon you are using as a basis for a new design.
+
+A few tips for importing a 48x48 pixel icon into the 24x24 pixel template follow: 
+1. Make sure you are using the standard DPI of 96.
+2. Make 
+
 
 ## Creating Slicer Icons from Scratch using a template
 
@@ -82,43 +107,34 @@ At a minimum, respecting the following 10 requirements will help keep new design
 
 <img src="https://github.com/user-attachments/assets/a8bf9222-2fe5-4d08-8442-f5f545186a23" width="200">
 
-### 2. SET USEFUL INKSCAPE SETTINGS PREFERENCES
+### 2. SET USEFUL INKSCAPE PREFERENCES:
 
-**Before opening or importing an existing SVG file**, It's useful to configure some basic Inkscape Settings. Below are tips for setting interaction and document properties, and creating grids to guide “pixel-perfect” design. The preferences menu is available under Inkscape->Settings. Preferences that are particlarly useful are:
+**Before opening or importing an existing SVG file**, It's useful to configure some basic Inkscape Settings. Below are tips for setting basic units, workspace dimensions, interaction and document properties, and creating grids to guide “pixel-perfect” design. The Inkscape Preferences menu is available under Inkscape->Settings. Preferences that are particlarly useful are:
 
 * Inkscape->Preferences->Imported Images: make sure SVG import mode is set to “include”.
-* Inkscape->Preferences->Imported Images: if required, here is where you set default import/export resolutions.
-* Inkscape->Preferences->Interface->Grids: set the grid units to px; and set up a grid you like here.
+* Inkscape->Preferences->Imported Images: make sure that import and export resolution is the standard 96 dpi.
+* Inkscape->Preferences->Interface->Grids: set the grid units to px; and set Origin X and Y = 0.0, Spacing X and Y = 1.0, and a grid line every 1 px.
 * Inkscape->Preferences->Interface->Color Selector: choose the types of color selectors you'd like to have access to.
-* Inkscape->Preferences->Behavior->Steps: set arrow key translation & rotation metrics.
+* Inkscape->Preferences->Behavior->Steps: set/re-set arrow key translation & rotation metrics to match the kind of big or small nudges you need.
 
 ### 3. SET INKSCAPE DOCUMENT PROPERTIES
 
-Once you open an SVG file, confirm that your Document Properties are good to go:
+If you're using one of Slicer's templates, the following Document Properties should already be set. If you are starting from scratch, the Document Properties menu is available under File->Document Properties. Some useful properties are:
 
-* In File->Document properties, under the Display Tab, set resolution and units:
-  
+**In the Document Properties->Display Tab:**
+
+* set resolution to 24x24 and units to pixels:
+* make sure Scale = 1.0
+* make sure Viewbox is configured with X=0, Y=0, width=24, height=24
+
+**In the Document Properties->Grids Tab:**
+
+  * Create a rectangular grid
+  * Check Enabled, Visible, and Snap to visible.
+  * Make sure grid units are set to pixels.
+  * If not specified in Inkscape Preferences already, set Origin X and Y = 0.0, Spacing X and Y = 1.0, and select a grid line every 1 unit.
+
+
 * ----WORK IN PROGRESS----
-Set up your page format to be “Custom”, 
-Set your Page units to be pixels 
-Set your Display units to be pixels 
-Set the Document width & height to match whether you are using Slicer's 24dp template or Slicer's 48dp template. (depends on lowest resolution for Slicer and what multiples of it we need) [For example, choose 24 for Material Symbol Icons if 24x24dp is chosen].
-Choose 1.0 for Scale (“pixels per user unit”)
-Open the Viewbox settings and choose X=Y=0.0; width & height [24] to create a display viewport that includes the whole document.
-
-In File->Document properties, under the Grids Tab, set up grids to delineate sets of pixels that will scale down to a single pixel when the icon is resized to its lowest resolution. For Material Symbols Icons at opsz 24:  
-Create grid1 with lines spaced by 1px and origin X,Y = 0,0; then
-Create grid2 with lines spaced by 1px, and origin X,Y = 0.5px. This puts grid2 marks in the center of each pixel. Render the grid2 with dots for readability.
-For each grid, check enable, visible, and enable snap to visible grid.
-
-To reduce off-grid errors and for convenience, set arrow key increments for translation and rotation:
-In Inkscape->Preferences->Behavior->Steps, set “arrow keys move by” to be half a grid space 0.5px.
-In Inkscape->Preferences->Behavior->Steps, also set “rotation snaps” to be 15 degrees.
-
-In File->Document properties, under the Color Tab, set up the correct color profile:
-Inkscape’s default color profile is sRGB (Inkscape’s default)
-Inkscape’s color profile functionality is brittle, so if you haven’t ever changed it, for print or whatever, just leave it alone.
-
-
 
 
