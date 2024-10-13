@@ -8,6 +8,7 @@ Links to additional useful information and resources are as follows:
 * Slicer's Templates: [24x24SlicerIconTemplate], [48x48SlicerIconTemplate] and [Icon documentation Template]
 * <A href="https://fonts.google.com/icons"> Google Fonts Material Symbols Icons</A>
 
+---
 ## Developing Slicer icons from Material Symbols Icons
 
 Icons downloaded from Google Fonts Material Symbols Icons may be used as-is or as starting point for a new icon design. If basing a new design on one of the Material Symbols Icons, please parameterize your selected icon for download as follows:
@@ -27,16 +28,19 @@ Icons downloaded from Google Fonts Material Symbols Icons may be used as-is or a
  
 If using the icon as-is, you're done! Keeping in mind that users may encounter this icon in other software they use, it's good practice to only use this icon to represent the concept it was intended for. To represent a different concept, modify the icon in some distinct way to represent your concept.
 
+---
 ## Basing a Slicer icon on a Material Symbols Icon.
 
 Note: as part of a font library, each Materials Symbols icon is described by a set of closed and filled curves. Designing with the icons configured as above, respecting the drawable area noted on the templates, and using Slicer's palette to create both Light and Dark themed versions will help to keep new icons visually compatible with Slicer's existing application icons. Editing these closed curves can be tricky to do well, so if you're not going to use the icon exactly as-is, you may want to use it as a temporary guide for creating your own version using simple vector elements. If so, please also see the New Icon Design Recommendations below.
 
+---
 ## Using one of Slicer's 24x24 px template with a Material Symbols Icon.
 
 Open Slicer's 24x24IconTemplate template (in which 1dp = 1 pixel) in the design software of your choice (specific advice will be given for Inkscape V1.3). Then import the svg into that template.  The template includes a frame that indicates padding, the content-free 2dp perimeter; content should be designed to fit within the 20x20dp space enclosed by the padding. If necessary, visual elements (like the tip of an arrow) can sneak into the padding. No content should extend entirely to the edge, or into the trim (beyond the edge).
 
 To create a LightTheme version of your icon, select all visual elements and set their fill color to Slicer's Default Light Theme Stroke #000000. To create a DarkTheme version of your icon, select all visual elements and set their fill color to Slicer's Default DarkTheme Stroke #E5E5F6. Finally, when you are finished with your design, the padding should be deleted before saving the new icon SVG.
 
+---
 ## Basing a new icon on an existing Slicer Icon.
 Slicer SVG icons may be saved as a 24x24 pixel icon, or as a 48x48 pixel icon. Each SVG file is a text file, and the width and height of the document is usually given at the top. For instance, the file will read:
 
@@ -61,16 +65,17 @@ A few tips for importing a 48x48 pixel icon into the 24x24 pixel template follow
 1. Make sure you are using the standard DPI of 96.
 2. Make 
 
-
+---
 ## Creating Slicer Icons from Scratch using a template
 
 If using Inkscape, helpful tips for configuring Inkscape and importing Slicer's SimpleColorPalette are below.
 
 If using SVG-Edit, some helpful tips for setting Document Properties and Editor Preferences are given, but it's mostly self-explanatory.
 
+---
 ## Visual appearance guidelines
 
-Slicer's most basic application UI icons are derived from Material Symbols Icons. To realistically accommodate the large and diverse community of 3D Slicer contributors without an onboard icon designer, we recommend using the <A href="https://m3.material.io/styles/icons/designing-icons" Material-IO design principles</A> as a touchstone, but there is no rigid adherance requirement.  
+Slicer's most basic application UI icons are derived from Material Symbols Icons. To realistically accommodate the large and diverse community of 3D Slicer contributors without an onboard icon designer, we recommend referring to the <A href="https://m3.material.io/styles/icons/designing-icons" Material-IO design principles</A> as a touchstone and inspiration, but don't require rigid adherance.  
 
 At a minimum, respecting the following 10 requirements will help keep new designs consistent with the appearance of existing set of Slicer Application Icons:
 
@@ -78,23 +83,23 @@ At a minimum, respecting the following 10 requirements will help keep new design
    
 2. At 24x24 pixel resolution, stroke width should be 1 dp = 1 px.
 
-3. Use simple unfilled stroked elements where possible.
+3. Use simple stroked elements without fill where possible.
 
-4. If filled elements are required, use limited color and in a manner consistent with both your UI and Slicer's application UI.
+4. If filled elements are required, use limited color and in a manner consistent with Slicer's palette, your UI and Slicer's application UI.
 
 5. Use face-forward icons where possible and orthographic perspective where required (such as in the depiction of source volumes).
 
 6. Avoid gradients and other 3D effects.
    
-7. Use the Stroke colors specified in Slicer's palette for both Dark and Light Themes.
+7. Use the stroke colors and fills specified in Slicer's palette for both Dark and Light Themes.
    
-8. Padding of 2dp is recommended around the 24x24dp icon perimeter. Each template indicates the 2dp padding for guidance.
+8. Padding of 2dp is recommended around the icon perimeter. Slicer templates indicate the 2dp padding for guidance.
    
-9. Ensure your icon works well in both Dark and Light Themes.
+9. Ensure your icon works well in both Dark and Light Themes, and use Slicer's SWAP and PASS-THRU colors.
 
-10. Please preview your icon in multiple resolutions and delete padding object before finalizing your work.
+10. Please preview your icon in multiple resolutions and delete padding object (if using template) before finalizing your work.
 
-    
+---
 ## Tips for designing in Inkscape V1.3: 
 
 * SIZE 24x24px: Slicer's 24x24IconTemplate can be used if desired. Slicer's icons are based on a 24x24dp minimum pixel-perfect size. At this resolution 1dp=1pixel, so stroke width should be 1px.
@@ -134,7 +139,7 @@ If you're using one of Slicer's templates, the following Document Properties sho
   * Make sure grid units are set to pixels.
   * If not specified in Inkscape Preferences already, set Origin X and Y = 0.0, Spacing X and Y = 1.0, and select a grid line every 1 unit.
 
-
+---
 * ----WORK IN PROGRESS----
 
 
