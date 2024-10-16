@@ -4,18 +4,10 @@
 
 <!--- summary of what lies below -->
 
-This directory contains template files for creating new Slicer Icons. These svg files can be used in the vector design software of choice. 
-
-<!--- please provide a link to design guidelines, palette files and templates, and Material Symbols Icons + config -->
-
-To create NEW icons to add to this set, please see the following resources:
-
-* the workflow and design guidelines in Slicer's [Icon Design Guildelines]
-* Slicer's [Color Palette], and
-* Slicer templates: [24x24IconTemplate] , [48x48IconTemplate] and [Icon documentation Template]
-* And feel free to use or adapt Google's Material Symbol Icons configured for download as noted in the [Design Guidelines].
-
-This will help keep new icons visually compatible with Slicer's icons, make sure they work well in both Dark and Light Themes, and help keep documentation of Slicer's icons consistent and current.
+Links to useful information and resources:
+* Slicer's Palette: <A href="https://github.com/Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl"> GPL format</A>, <A href="https://github.com/Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.csv"> CSV format</A>, <A href="https://github.com/Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.tsv"> TSV format</A>.
+* Slicer's Templates: <A href="https://github.com/Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg"> 24x24SlicerIconTemplate</A>, <A href="https://github.com/Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/48x48SlicerIconTemplate.svg"> 48x48SlicerIconTemplate</A> and <A href="https://github.com/Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/README.md"> Icon documentation README.md Template</A>
+* <A href="https://fonts.google.com/icons"> Google Fonts Material Symbols Icons</A>
 
 <!--- list all symbolic patterns that NEW icons in this set should adhere to -->
 
