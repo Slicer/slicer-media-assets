@@ -5,7 +5,7 @@ This document desribes design guidelines for 3D Slicer Icons in Dark and Light T
 
 Links to useful information and resources are as follows:
 * Slicer's Palette: <A href="../SlicerPalettes/SlicerSimplePalette.gpl"> GPL format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.csv"> CSV format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.tsv"> TSV format</A>.
-* Slicer's Templates: [24x24SlicerIconTemplate], [48x48SlicerIconTemplate] and [Icon documentation Template]
+* Slicer's Templates: <A href="../SlicerTemplates/24x24SlicerIconTemplate.svg"> 24x24SlicerIconTemplate</A>, <A href="../SlicerTemplates/48x48SlicerIconTemplate.svg"> 48x48SlicerIconTemplate</A> and <A href="../SlicerTemplates/README.md"> Icon documentation README.md Template</A>
 * <A href="https://fonts.google.com/icons"> Google Fonts Material Symbols Icons</A>
 
 ---
