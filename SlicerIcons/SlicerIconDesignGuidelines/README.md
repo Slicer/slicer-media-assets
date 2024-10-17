@@ -3,11 +3,15 @@
 
 This document desribes design guidelines for 3D Slicer Icons in Dark and Light Themes. Helpful resources and a few simple workflows are provided for developers adding Material Symbols Icons to Slicer, creating new icons by adapting Material Symbols Icon designs or directly from scratch.
 
-Links to useful information and resources are as follows:
-* Slicer's Palette: <A href="../SlicerPalettes/SlicerSimplePalette.gpl"> GPL format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.csv"> CSV format</A>, <A href="../SlicerPalettes/SlicerSimplePalette.tsv"> TSV format</A>.
-* Slicer's Templates: <A href="../SlicerTemplates/24x24SlicerIconTemplate.svg"> 24x24SlicerIconTemplate</A>, <A href="../SlicerTemplates/48x48SlicerIconTemplate.svg"> 48x48SlicerIconTemplate</A> and <A href="../SlicerTemplates/README.md"> Icon documentation README.md Template</A>
-* <A href="https://fonts.google.com/icons"> Google Fonts Material Symbols Icons</A>
-
+Links to useful information and resources:
+* Slicer's Palette can be found in:
+  * GPL format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl,
+  * CSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.csv, and
+  * TSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.tsv.
+* Slicer's Templates for new icon design and icon documentation, can be found respectively in:
+  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg, and
+  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/README.md"
+    
 ---
 ## Visual appearance guidelines
 
