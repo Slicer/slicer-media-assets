@@ -5,8 +5,13 @@
 <!--- summary of what lies below -->
 
 Links to useful information and resources:
-* Slicer's Palette can be found in GPL format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl, CSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.csv, and TSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.tsv.
-* Slicer's Templates for new icon design and icon documentation, can be found respectively in: Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg, and Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/README.md" 
+* Slicer's Palette can be found in:
+  * GPL format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl,
+  * CSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.csv, and
+  * TSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.tsv.
+* Slicer's Templates for new icon design and icon documentation, can be found respectively in:
+  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg, and
+  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/README.md" 
 
 <!--- list all symbolic patterns that NEW icons in this set should adhere to -->
 
