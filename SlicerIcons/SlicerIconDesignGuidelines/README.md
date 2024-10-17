@@ -19,7 +19,7 @@ Slicer's most basic application UI icons are derived from Material Symbols Icons
 
 A simple set of **10 recommendations** will help keep new designs consistent with the appearance of existing set of Slicer Application Icons:
 
-1. Design icons on a transparent background.
+1. Design icons as vector images on a transparent background.
    
 2. At 24x24 pixel resolution, stroke width should be 1 dp = 1 px. This will insure pixel-perfect rendering at resolution multiples of 24x24.
 
