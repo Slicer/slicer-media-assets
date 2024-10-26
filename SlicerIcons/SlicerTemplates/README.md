@@ -1,16 +1,19 @@
+<!--- This is a template README file for icon documentation -->
+
 <!--- your title here -->
 
 # Slicer Icon Templates
 
-<!--- summary of what lies below -->
+<!--- links to useful information and summary of what lies below -->
 
 Links to useful information and resources:
 * Slicer's Palette can be found in:
   * GPL format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl,
   * CSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.csv, and
   * TSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.tsv.
-* Slicer's Templates for new icon design and icon documentation, can be found respectively in:
-  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg, and
+* Slicer's (optional) Templates for new icon designs:
+  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg
+* Slicer's Template for icon documentation:
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/README.md" 
 
 <!--- list all symbolic patterns that NEW icons in this set should adhere to -->
@@ -29,11 +32,12 @@ Links to useful information and resources:
 
 ## Full Icon set for Slice Viewers Dark and Light Themes:
 
-Light & Dark Theme 
+Light & Dark Theme
 
 
+<!--- TODO: Keep current table of Light Theme versions of svg image data -- if possible to set table cell bg color to #ffffff -->
 
-<!--- if relevant, provide current table of Dark Theme versions of svg image data -->
+Light Theme Version:
 
 |Icon SVG |Name |
 |-----|--------|
@@ -42,6 +46,16 @@ Light & Dark Theme
 | ... | ... |
 | link to N.Svg | N |
 
+<!--- Keep current table of Dark Theme versions of svg image data -->
+
+Dark Theme Version:
+
+|Icon SVG |Name |
+|-----|--------|
+| link to A.svg | A |
+| link to B.svg | B |
+| ... | ... |
+| link to N.Svg | N |
 
 <!--- if appropriate, include any special colors used in image data that NEW icons in this set should use -->
 
