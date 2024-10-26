@@ -35,7 +35,7 @@ Links to useful information and resources:
 Light & Dark Theme
 
 
-<!--- TODO: Keep current table of Light Theme versions of svg image data -- if possible to set table cell bg color to #ffffff -->
+<!--- TODO: Keep current table of Light Theme versions of svg image data -- if possible to get around github's markdown sanitizing to set table cell bg color to #ffffff if using github's dark theme? -->
 
 Light Theme Version:
 
