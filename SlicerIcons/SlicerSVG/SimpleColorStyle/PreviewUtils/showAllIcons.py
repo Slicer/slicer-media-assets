@@ -40,7 +40,7 @@ if theme=="L" or theme=="l":
     cellWithTooltipText = ".CellWithTooltip:hover span.CellTooltip { display:block; }\n"
     tableCellStyleText = "<style>\n" + tableText + tooltipCellText + tooltipStyleText + cellWithTooltipText + "</style>\n"
     bodyStyleText = "<body style=\"margin-left: 200px; margin-top: 100px; font-family: sans-serif; align: left; color: black; background-color: white\">\n"
-    headingText = "<h2 style= \"color:black;\"> Slicer Design Guidelines & Light Theme Icons Preview </h2>\n"
+    headingText = "<h2 style= \"color:black;\"> 3D Slicer Icon Design Guidelines & Light Theme Icons Preview </h2>\n"
     pStyleText = "<p style=\"margin-bottom: 40px; margin-top: 40px; margin-left: 30px; width: 80%; font-size:10pt;\">\n"
     
 if theme=="D" or theme=="d":
@@ -53,21 +53,21 @@ if theme=="D" or theme=="d":
     cellWithTooltipText = ".CellWithTooltip:hover span.CellTooltip{ display:block; }\n"
     tableCellStyleText = "<style>\n" + tableText + tooltipCellText + tooltipStyleText + cellWithTooltipText + "</style>\n" 
     bodyStyleText = "<body style=\"margin-left: 200px; margin-top: 100px; font-family: sans-serif; align: left; color: #e5e5f6; background-color: #121212\"> "
-    headingText = "<h2 style= \"color: #e5e5f6;\"> Slicer Design Guidelines & Dark Theme Icons Preview </h2>\n"
+    headingText = "<h2 style= \"color: #e5e5f6;\"> 3D Slicer Icon Design Guidelines & Dark Theme Icons Preview </h2>\n"
     pStyleText = "<p style=\"margin-bottom: 40px; margin-top: 40px; margin-left: 30px; width: 80%; font-size:10pt;\">\n"
     
 #---- Include Design Guidelines at document top.
 fileout = open(fileName, "w")
-designGuidelines = pStyleText + "1. Design icons as vector images on a transparent background.\n</p>"
-designGuidelines += pStyleText + "2. At 24x24 pixel resolution, stroke width should be 1dp = 1px for pixel-perfect rendering at resolution multiples of 24.\n</p>"
+designGuidelines = pStyleText + "1. Design 3D Slicer icons as vector images on a transparent background.\n</p>"
+designGuidelines += pStyleText + "2. At 24x24 pixel resolution, stroke width should be 1dp = 1px for pixel-perfect rendering at resolution multiples of 24. Most of 3D Slicer's icons are designed at 200% scale, at 48x48 pixel resolution, with 1dp=2px.\n</p>"
 designGuidelines += pStyleText + "3. Use simple stroked elements without fill where possible.\n</p>"
-designGuidelines += pStyleText + "4. If filled elements are required, use limited color, consistently within your UI, compatibly with Slicer's application UI, and preferrably from Slicer's SimpleColorPalette.\n</p>"
+designGuidelines += pStyleText + "4. If filled elements are required, use limited color, consistently within your UI, compatibly with 3D Slicer's application UI, and preferrably from 3D Slicer's SimpleColorPalette.\n</p>"
 designGuidelines += pStyleText + "5. Use face-forward icons where possible and orthographic perspective with 45 degree angles where required.\n</p>"
 designGuidelines += pStyleText + "6. Avoid gradients and other 3D effects.\n</p>"
-designGuidelines += pStyleText + "7. Respect stroke, fill and background colors defined in Slicer's SimpleColorPalette for both Dark and Light Themes.\n</p>"
-designGuidelines += pStyleText + "8. Padding of 2dp is recommended around the icon perimeter.\n</p>"
-designGuidelines += pStyleText + "9. Preview the Dark and Light Theme versions of your icons on Dark and Light Theme backgrounds and at multiple resolutions.\n</p>"
-designGuidelines += pStyleText + "10. Remove all hidden or unused vector elements from the SVG file before finalizing work.\n</p>"
+designGuidelines += pStyleText + "7. Respect stroke, fill and background colors defined in 3D Slicer's SimpleColorPalette for both Dark and Light Themes.\n</p>"
+designGuidelines += pStyleText + "8. Whenever possible, reuse the symbolic visual reprentations, symbolic colors and other established patterns in the application UI for any new icons.\n</p>"
+designGuidelines += pStyleText + "9. Maintain a padding of 2dp around the icon perimeter when possible.\n</p>"
+designGuidelines += pStyleText + "10. Preview Dark and Light Theme versions of your icons on Dark and Light Theme backgrounds, at multiple resolution,. and remove all hidden or unused vector elements from SVG files before finalizing work.\n</p>"
 
 #---- write out document head and close file.
 bulkText = "<!DOCTYPE html>\n" + "<html>\n" + "<head>\n" + "<title> " + titleText + " </title>\n" + tableCellStyleText + "</head>\n" + bodyStyleText + "<font face=\"verdana\">\n" + headingText + designGuidelines

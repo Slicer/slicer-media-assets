@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="SlicerColorContours.svg"
+   inkscape:export-filename="PNG/SlicerUpArrowV1-24.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#111111"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="px"
+   showgrid="true"
+   inkscape:zoom="13.641228"
+   inkscape:cx="24.741175"
+   inkscape:cy="23.311684"
+   inkscape:window-width="1440"
+   inkscape:window-height="900"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="LightThemeEnabledLayer"
+   showguides="true"><inkscape:grid
+     id="grid1"
+     units="px"
+     originx="0"
+     originy="0"
+     spacingx="2"
+     spacingy="2"
+     empcolor="#0099e5"
+     empopacity="0.30196078"
+     color="#0099e5"
+     opacity="0.14902"
+     empspacing="1"
+     dotted="false"
+     gridanglex="30"
+     gridanglez="30"
+     visible="true" /></sodipodi:namedview><defs
+   id="defs1" />
+<!-- PUT FINAL THEME/STATE VERSIONS IN THESE LAYERS. NO GROUPED ELEMENTS. -->
+<g
+   inkscape:label="LightThemeEnabledLayer"
+   id="LightThemeEnabledLayer"
+   inkscape:groupmode="layer"
+   style="display:inline"
+   sodipodi:insensitive="true"><circle
+     style="fill:#fd5959;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     id="path1"
+     cx="24"
+     cy="24"
+     r="20" /><circle
+     style="fill:#ff8e25;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999997"
+     id="circle1"
+     cx="24"
+     cy="24"
+     r="17" /><circle
+     style="fill:#fccd4c;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999998"
+     id="circle2"
+     cx="24"
+     cy="24"
+     r="14" /><circle
+     style="fill:#66cb74;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999991"
+     id="circle3"
+     cx="24"
+     cy="24"
+     r="10" /><circle
+     style="fill:#4c7ae2;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999994"
+     id="circle4"
+     cx="24"
+     cy="24"
+     r="7" /><circle
+     style="fill:#8842b6;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999982"
+     id="circle5"
+     cx="24"
+     cy="24"
+     r="3" /><circle
+     style="fill:#fd5959;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     id="circle6"
+     cx="24"
+     cy="71.94912"
+     r="19" /></g>
+
+
+<!-- TINKERLAYER FOR USE AS DESIGN SANDBOX. DELETE IN FINAL VERSION -->
+</svg>
