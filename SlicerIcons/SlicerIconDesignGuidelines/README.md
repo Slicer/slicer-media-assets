@@ -18,17 +18,17 @@ Slicer's most basic application UI icons are derived from Material Symbols Icons
 
 Following this simple set of **10 recommendations** will help keep new designs consistent with the appearance of existing set of Slicer Application Icons:
 
-1. Design icons as vector images on a transparent background.
+1. Design icons as vector images on a transparent background. Reuse existing Slicer symbols for data and concepts where appropriate.
    
 2. At 24x24 pixel resolution, stroke width should be 1 dp = 1 px. This will insure pixel-perfect rendering at resolution multiples of 24.
 
-3. Use simple stroked elements without fill where possible.
+3. Use simple stroked elements without fill where possible. Stroke caps and corners can be sharp or rounded with r = dp/2.
 
 4. If filled elements are required, use limited color, preferrably from Slicer's palette, consistent across your UI and compatible with Slicer's application UI, and ensure the fill color works well in both Dark and Light themes.
 
 5. Use face-forward icons where possible and orthographic perspective with 45 deg angles where required.
 
-6. Avoid gradients and other 3D effects.
+6. Avoid gradients, shadows and other 3D effects.
    
 7. Respect the stroke, fill and backgrounds **colors** defined in Slicer's palette for both Dark and Light Themes. 
    
