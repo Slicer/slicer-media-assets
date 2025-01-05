@@ -27,39 +27,10 @@ Links to useful information and resources:
 * ** ...
 
 * ** visual element N
-  
-<!--- Optional: provide screen shot of icons included in this set.-->
 
-## Full Icon set for Slice Viewers Dark and Light Themes:
-
-Light & Dark Theme
-
-
-<!--- TODO: Keep current table of Light Theme versions of svg image data -- if possible to get around github's markdown sanitizing to set table cell bg color to #ffffff if using github's dark theme? -->
-
-Light Theme Version:
-
-|Icon SVG |Name |
-|-----|--------|
-| link to A.svg | A |
-| link to B.svg | B |
-| ... | ... |
-| link to N.Svg | N |
-
-<!--- Keep current table of Dark Theme versions of svg image data -->
-
-Dark Theme Version:
-
-|Icon SVG |Name |
-|-----|--------|
-| link to A.svg | A |
-| link to B.svg | B |
-| ... | ... |
-| link to N.Svg | N |
 
 <!--- if appropriate, include any special colors used in image data that NEW icons in this set should use -->
-
-<!--- note whether they have been included in SlicerSimplePalette, and if they are SWAP|GLOBAL. -->
+<!--- and note whether they have been included in SlicerSimplePalette, and if they are SWAP|GLOBAL. -->
 
 ## Specific Colors included in SlicerSimplePalette
 
