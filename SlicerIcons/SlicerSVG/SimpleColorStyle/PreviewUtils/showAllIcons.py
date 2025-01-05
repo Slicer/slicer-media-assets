@@ -1,4 +1,4 @@
-# Run as: create-html-table.py L|D {Light or Dark Theme}
+# Run as: showAllIcons.py L|D {Light or Dark Theme}
 # The script requires 1 argument: the css file to use to style document. 
 
 import sys
