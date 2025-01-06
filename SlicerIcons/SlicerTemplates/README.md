@@ -4,9 +4,11 @@
 
 # Slicer Icon Templates
 
-This directory contains two simple templates for new Slicer Icons. Each version contains a vector element to indicate perimeter padding which should be removed before saving final work. When designing a new icon for 3D Slicer, please consult Slicer's Visual Icon Design Guidelines. 
+This directory contains two simple templates for new Slicer Icons. Each version contains a vector element to indicate perimeter padding which should be removed before saving final work. When designing a new icon for 3D Slicer, please consult Slicer's Icon Design Guidelines which can be found at the link below. 
 
 Links to useful information and resources:
+* Slicer's Icon Design Guidelines can be found in:
+  * Slicer/slicer-media-assets/SlicerIcons/SlicerIconDesignGuidelines/README.md
 * Slicer's Palette can be found in:
   * GPL format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl,
   * CSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.csv, and
