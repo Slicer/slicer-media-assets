@@ -4,7 +4,7 @@
 
 # Slicer Icon Templates
 
-<!--- links to useful information and summary of what lies below -->
+This directory contains two simple templates for new Slicer Icons. Each version contains a vector element to indicate perimeter padding which should be removed before saving final work. When designing a new icon for 3D Slicer, please consult Slicer's Visual Icon Design Guidelines. 
 
 Links to useful information and resources:
 * Slicer's Palette can be found in:
@@ -13,35 +13,7 @@ Links to useful information and resources:
   * TSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.tsv.
 * Slicer's (optional) Templates for new icon designs:
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg
+  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/48x48SlicerIconTemplate.svg
 * Slicer's Template for icon documentation:
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/README.md" 
-
-<!--- list all symbolic patterns that NEW icons in this set should adhere to -->
-
-## Icon set symbolics
-
-* ** visual element 1
-
-* ** visual element 2
-
-* ** ...
-
-* ** visual element N
-
-
-<!--- if appropriate, include any special colors used in image data that NEW icons in this set should use -->
-<!--- and note whether they have been included in SlicerSimplePalette, and if they are SWAP|GLOBAL. -->
-
-## Specific Colors included in SlicerSimplePalette
-
-ColorName1 (SWAP / LightTheme):
-* HEX #000000
-
-ColorName1 (SWAP / DarkTheme):
-* HEX #ffffff
-
-ColorName2 (GLOBAL / Both themes):
-* HEX #123456
-
-
 
