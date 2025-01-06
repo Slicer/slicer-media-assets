@@ -16,6 +16,4 @@ Links to useful information and resources:
 * Slicer's (optional) Templates for new icon designs:
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/48x48SlicerIconTemplate.svg
-* Slicer's Template for icon documentation:
-  * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/README.md" 
 
