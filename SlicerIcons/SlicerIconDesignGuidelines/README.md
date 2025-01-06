@@ -25,12 +25,13 @@ Following this simple set of **10 recommendations** will help keep new designs c
 3. Use simple stroked elements without fill where possible. Stroke caps and corners can be sharp or rounded with r = dp/2.
 
 4. If filled elements are required, use limited color, preferrably from Slicer's SimpleColorPalette, consistently across your UI and compatibly with Slicer's application UI. Ensure the fill color works well in both Dark and Light themes.
-
-5. Use face-forward icons where possible and orthographic perspective with 45 deg angles where required.
-
-6. Avoid gradients, shadows and other 3D effects.
    
-7. Respect the stroke, fill and backgrounds colors defined in Slicer's palette for both Dark and Light Themes. 
+5. Respect the stroke, fill and backgrounds colors as defined and named for use in Slicer's SimpleColorPalette for both Dark and Light Themes. 
+
+6. Use face-forward icons where possible and orthographic perspective with 45 deg angles where required.
+
+7. Avoid gradients, shadows and other 3D effects.
+   
    
 8. Padding of 2dp is recommended around the icon perimeter. 
    
