@@ -11,5 +11,5 @@ Links to useful information and resources:
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/48x48SlicerIconTemplate.svg
 
 ## PreviewUtils contains a grungy python script used to preview icons in dark and light themes. 
-  * Usage is 'python showallIcons.py L|D  where L or D is light or dark theme. 
-  * Creates a big blob of a file called DarkThemeIconsIndex.html or LightThemeIconsIndex.html to preview the set.
+  * Usage is 'python showAllIcons.py L|D  where L or D is light or dark theme. 
+  * Creates a big blob of a file called either DarkThemeIconsIndex.html or LightThemeIconsIndex.html to preview the set locally.
