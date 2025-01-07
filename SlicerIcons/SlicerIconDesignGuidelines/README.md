@@ -1,5 +1,5 @@
 
-# 3D Slicer Icon Design Guidelines and Resources
+# 3D Slicer Icon Design Guidelines, Resources and Workflow Tips for New Designs
 
 This document desribes design guidelines for 3D Slicer Icons in Dark and Light Themes. Helpful resources and a few simple workflows are provided for developers adding Material Symbols Icons to Slicer, creating new icons by adapting Material Symbols Icon designs or directly from scratch.
 
