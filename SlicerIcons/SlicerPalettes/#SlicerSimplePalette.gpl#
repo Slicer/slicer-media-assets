@@ -43,7 +43,7 @@ Columns: 6
 178 178 178 #B2B2B2	Global-Grey70Percent
 204 204	204 #CCCCCC	Global-Grey80Percent
 229 229	229 #E5E5E5	Global-Grey90Percent
-254 255 255 #feffff	Global-White
+254 255 255 #feffff	Global-SharedWhite
   1   1   1 #010101	Global-SharedBlack
 247 206  99 #F7ce63	Global-SliceViewerYellow
 237 114 108 #ED726c	Global-SliceViewerRed

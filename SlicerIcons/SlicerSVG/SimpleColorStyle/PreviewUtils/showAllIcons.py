@@ -12,13 +12,13 @@ def getSubdirectories(path):
     for entry in os.scandir(path):
         if entry.is_dir():
             subdirectories.append(entry.path)
-    return subdirectories
+    return sorted(subdirectories)
 
 
 
 n = len(sys.argv)
 if n!=2:
-    print ("Usage: " + sys.argv[0] +  "L|D {Light DarkTheme}" )
+    print ("Usage: " + sys.argv[0] +  " L|D {Light DarkTheme}" )
     sys.exit()
 
 # Create the html document head and include css
@@ -62,9 +62,9 @@ designGuidelines = pStyleText + "1. Design 3D Slicer icons as vector images on a
 designGuidelines += pStyleText + "2. At 24x24 pixel resolution, stroke width should be 1dp = 1px for pixel-perfect rendering at resolution multiples of 24. Most of 3D Slicer's icons are designed at 200% scale, at 48x48 pixel resolution, with 1dp=2px.\n</p>"
 designGuidelines += pStyleText + "3. Use simple stroked elements without fill where possible. Stroke caps and corners can be sharp or rounded with r = dp/2.\n</p>"
 designGuidelines += pStyleText + "4. If filled elements are required, use limited color, preferably from Slicer's SimpleColorPalette, consistently across your UI, compatibly with 3D Slicer's application UI. Ensure the fill color works well in both Dark and Light themes.\n</p>"
-designGuidelines += pStyleText + "5. Use face-forward icons where possible and orthographic perspective with 45 degree angles where required.\n</p>"
-designGuidelines += pStyleText + "6. Avoid gradients, shadows and other 3D effects.\n</p>"
-designGuidelines += pStyleText + "7. Respect stroke, fill and background colors defined in 3D Slicer's SimpleColorPalette for both Dark and Light Themes.\n</p>"
+designGuidelines += pStyleText + "5. Respect stroke, fill and background colors as defined and named for use in 3D Slicer's SimpleColorPalette for both Dark and Light Themes.\n</p>"
+designGuidelines += pStyleText + "6. Use face-forward icons where possible and orthographic perspective with 45 degree angles where required.\n</p>"
+designGuidelines += pStyleText + "7. Avoid gradients, shadows and other 3D effects.\n</p>"
 designGuidelines += pStyleText + "8. Maintain a padding of 2dp around the icon perimeter when possible.\n</p>"
 designGuidelines += pStyleText + "9. Preview Dark and Light Theme versions of your icons on Dark and Light Theme backgrounds, at multiple resolution to make sure they look great.\n</p>"
 designGuidelines += pStyleText + "10. Ensure all hidden or unused vector elements from SVG files before finalizing work.\n</p>"
