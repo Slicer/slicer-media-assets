@@ -1,5 +1,5 @@
 
-# 3D Slicer Icon Design Guidelines and Resources
+# 3D Slicer Icon Design Guidelines, Resources and Workflow Tips for New Designs
 
 This document desribes design guidelines for 3D Slicer Icons in Dark and Light Themes. Helpful resources and a few simple workflows are provided for developers adding Material Symbols Icons to Slicer, creating new icons by adapting Material Symbols Icon designs or directly from scratch.
 
@@ -25,12 +25,13 @@ Following this simple set of **10 recommendations** will help keep new designs c
 3. Use simple stroked elements without fill where possible. Stroke caps and corners can be sharp or rounded with r = dp/2.
 
 4. If filled elements are required, use limited color, preferrably from Slicer's SimpleColorPalette, consistently across your UI and compatibly with Slicer's application UI. Ensure the fill color works well in both Dark and Light themes.
-
-5. Use face-forward icons where possible and orthographic perspective with 45 deg angles where required.
-
-6. Avoid gradients, shadows and other 3D effects.
    
-7. Respect the stroke, fill and backgrounds colors defined in Slicer's palette for both Dark and Light Themes. 
+5. Respect the stroke, fill and backgrounds colors as defined and named for use in Slicer's SimpleColorPalette for both Dark and Light Themes. 
+
+6. Use face-forward icons where possible and orthographic perspective with 45 deg angles where required.
+
+7. Avoid gradients, shadows and other 3D effects.
+   
    
 8. Padding of 2dp is recommended around the icon perimeter. 
    
@@ -65,7 +66,19 @@ If using the icon as-is, you're done! Keeping in mind that users may encounter t
 
 Note: as part of a font library, each Materials Symbols icon is described by a set of closed and filled curves. Designing with the icons configured as above, respecting a 2dp padding around the perimeter of the icon, and using Slicer's palette to create both Light and Dark themed versions will help to keep new icons visually compatible with Slicer's existing application icons. Editing these closed curves can be tricky to do well, so if you're not going to use the icon exactly as-is, you may want to create your own version using it as a guide. 
 
-If so, some helpful Workflow Tips are linked below:
+### Some Workflow Tips for Creating New Icons
 
-## Links to Workflow Tips:
+* If your vector editing software allows you to import Slicer's SimpleColorPalette, definitely do that and choose appropriate named colors for each Theme.
+   * If your software doesn't permit loading custom palettes, you can refer to the README documentation in the SlicerPalettes directory for a table of colors and values.
+   * If you're using Inkscape, you'll need to copy the palette .gpl file into the palettes directory which will vary according to your Inkscape version and your platform. The palette will be discovered on startup, and can be displayed using Inkscape's palette selector.
+
+* If designing at resolution 24x24 px from a Material Symbols Icon, load or import the icon, parameterized and saved as above, into your vector editing software. Resize or reposition the vector elements as need. If something looks wrong, see further tips below.
+  
+* If designing a 48x48 Icon from a Material Symbols Icon, load or import the icon, parameterized and saved as above, into your vector editing software. Scale it by 200% and position on the document. If something looks wrong, see further tips below.
+
+* If a Materials Symbols Icon loads or imports in a surprising way into your vector editing software, check the document properties to debug units (px); viewbox X, Y, Width and Height; and Scale. Some simple vector editing tools don't handle document ***imports*** well when the imported document has viewbox and scale parameters that differ from the document you're importing ***into***. so:
+   * If you are starting by loading the 48x48SlicerIconTemplate.svg file, the document Width=Height=48px, Scale=1.0 (px per user unit), and Viewbox X=0, Y=0, Width=48, Height=48. If you find that the scale or position of the imported icon is way off, that's a sign that your software isn't handling the viewbox mapping well. You can still resize and reposition the imported content, within the template, and the resulting saved icon should be fine. Just make sure the resized vector elements are pixel-perfect.
+   * If you are starting by loading a Materials Symbol Icon parameterized and saved as above, the document Width=Height=24, Scale=0.0250, and the Viewbox X=0, Y=-960, Width=960, Height=960. If you want to change this document to 48x48px resolution in keeping with 3D Slicer's other icons, change document width and height to 48px, and change Scale to 0.05. Note that the Viewbox will still have its original values, but that's just fine.
+
+* If you're starting your own icon from scratch and not using a template or a Material Symbols Icon, that's fine too. For consistency in that case, please set your icon's document properties to match existing icons: units=px; Document Width=Height=48px; Viewbox X=Y=0, Width=Height=48 and Scale=1.0. Refer to the Design Guidelines above, and enjoy!
 

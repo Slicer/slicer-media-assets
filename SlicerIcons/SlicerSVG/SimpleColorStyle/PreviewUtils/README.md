@@ -1,11 +1,3 @@
-<!--- This is a template README file for icon documentation -->
-
-<!--- your title here -->
-
-# Slicer Icon Templates
-
-This directory contains two simple templates for new Slicer Icons. Each version contains a vector element to indicate perimeter padding which should be removed before saving final work. When designing a new icon for 3D Slicer, please consult Slicer's Icon Design Guidelines which can be found at the link below. 
-
 Links to useful information and resources:
 * Slicer's Icon Design Guidelines can be found in:
   * Slicer/slicer-media-assets/SlicerIcons/SlicerIconDesignGuidelines/README.md
@@ -13,7 +5,11 @@ Links to useful information and resources:
   * GPL format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl,
   * CSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.csv, and
   * TSV format: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.tsv.
+  * For icon authors who wish to extend this palette, it is recommended that new global colors be effective for both dark and light themes.
 * Slicer's (optional) Templates for new icon designs:
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/24x24SlicerIconTemplate.svg
   * Slicer/slicer-media-assets/SlicerIcons/SlicerTemplates/48x48SlicerIconTemplate.svg
 
+## PreviewUtils contains a grungy python script used to preview icons in dark and light themes. 
+  * Usage is 'python showAllIcons.py L|D  where L or D is light or dark theme. 
+  * Creates a big blob of a file called either DarkThemeIconsIndex.html or LightThemeIconsIndex.html to preview the set locally.
