@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    xml:space="preserve"
-   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    sodipodi:docname="MarkupsAddLine.svg"
    inkscape:export-filename="PNG/SlicerUpArrowV1-24.png"
    inkscape:export-xdpi="48"
@@ -29,9 +29,9 @@
    showgrid="true"
    inkscape:zoom="9.6746298"
    inkscape:cx="24.652106"
-   inkscape:cy="16.072966"
+   inkscape:cy="16.021285"
    inkscape:window-width="1392"
-   inkscape:window-height="773"
+   inkscape:window-height="766"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="0"
@@ -52,7 +52,19 @@
      gridanglex="30"
      gridanglez="30"
      visible="true" /></sodipodi:namedview><defs
-   id="defs1" />&#10;&#10;<!-- PUT FINAL THEME/STATE VERSIONS IN THESE LAYERS. NO GROUPED ELEMENTS. -->&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;<g
+   id="defs1" />
+
+<!-- PUT FINAL THEME/STATE VERSIONS IN THESE LAYERS. NO GROUPED ELEMENTS. -->
+
+
+
+
+
+
+
+
+
+<g
    inkscape:label="LightThemeEnabledLayer"
    id="LightThemeEnabledLayer"
    inkscape:groupmode="layer"
@@ -61,16 +73,16 @@
      style="display:inline;fill:none;stroke:#b2b2b2;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="m 32.172045,43.881342 5.299992,-5.299991"
      id="path2-8-3" /><path
-     style="display:inline;fill:#666666;stroke:#808080;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     style="display:inline;fill:none;stroke:#808080;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="m 19.000002,28.994014 4.01092,-4.010919"
      id="path2-8-3-7" /><path
-     style="display:inline;fill:#666666;stroke:#b2b2b2;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     style="display:inline;fill:none;stroke:#b2b2b2;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="M 4.2385635,15.74289 9.5385552,10.442899"
      id="path2-8-3-71" /><path
      style="display:inline;fill:none;stroke:#fd5959;stroke-width:1.7558;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="M 12.67337,10.620768 36.863782,34.81118"
      id="path2" /><path
-     style="display:inline;fill:#666666;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     style="display:inline;fill:none;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="M 5.6481688,15.731641 32.178143,42.461614"
      id="path2-8"
      sodipodi:nodetypes="cc" /><circle
@@ -100,4 +112,8 @@
      height="13.963907"
      x="9.9819536"
      y="-45.981953"
-     transform="rotate(90)" /></g>&#10;&#10;&#10;<!-- TINKERLAYER FOR USE AS DESIGN SANDBOX. DELETE IN FINAL VERSION -->&#10;</svg>
+     transform="rotate(90)" /></g>
+
+
+<!-- TINKERLAYER FOR USE AS DESIGN SANDBOX. DELETE IN FINAL VERSION -->
+</svg>

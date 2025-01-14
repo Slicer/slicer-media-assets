@@ -28,14 +28,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="13.641228"
-     inkscape:cx="24.228025"
+     inkscape:cx="24.264678"
      inkscape:cy="25.5109"
      inkscape:window-width="1384"
      inkscape:window-height="762"
      inkscape:window-x="9"
-     inkscape:window-y="38"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg1"
+     inkscape:current-layer="LightThemeEnabledLayer"
      showguides="true"><inkscape:grid
        id="grid1"
        units="px"
@@ -67,7 +67,7 @@
        style="fill:none;stroke:#ef4701;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 14.036719,22.999998 H 32"
        id="path4" /><path
-       style="display:inline;fill:#989898;stroke:#fa9f00;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#989898;stroke:#ed8800;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 14.036719,24.984511 H 32"
        id="path4-3" /><path
        style="display:inline;fill:none;stroke:#e82101;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"

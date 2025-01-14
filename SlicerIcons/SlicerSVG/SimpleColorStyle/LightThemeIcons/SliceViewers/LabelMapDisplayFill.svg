@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    xml:space="preserve"
-   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    sodipodi:docname="LabelMapDisplayFill.svg"
    inkscape:export-filename="PNG/SlicerUpArrowV1-24.png"
    inkscape:export-xdpi="48"
@@ -29,9 +29,9 @@
      showgrid="true"
      inkscape:zoom="11.299166"
      inkscape:cx="25.400105"
-     inkscape:cy="26.152373"
+     inkscape:cy="26.196624"
      inkscape:window-width="1384"
-     inkscape:window-height="773"
+     inkscape:window-height="766"
      inkscape:window-x="39"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -206,13 +206,13 @@
        style="fill:none;stroke:#738c79;stroke-width:1.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 42.000001,25.062761 H 24.999995 V 42"
        id="path2" /><path
-       style="display:inline;fill:#abd4b5;fill-opacity:0.8;stroke:none;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#abd4b5;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 25.993599,8.0397846 v 15.9999994 0 H 42.006401 V 8.0397846 Z"
        id="path3-9-1-8-95" /><path
-       style="display:inline;fill:#abd4b5;fill-opacity:0.8;stroke:none;stroke-width:2.00002;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#abd4b5;fill-opacity:1;stroke:none;stroke-width:2.00002;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 26,26 v 16.000001 0 H 42 V 26 Z"
        id="path8" /><path
-       style="display:inline;fill:#abd4b5;fill-opacity:0.8;stroke:none;stroke-width:2.00002;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#abd4b5;fill-opacity:1;stroke:none;stroke-width:2.00002;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 8.0194563,25.94722 v 16 0 H 24.019457 l -0.03891,-15.894441 z"
        id="path9"
        sodipodi:nodetypes="cccccc" /><path
