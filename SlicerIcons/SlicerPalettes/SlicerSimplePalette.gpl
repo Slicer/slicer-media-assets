@@ -6,7 +6,7 @@ Columns: 6
 #
 
 #
-# Dark Theme Basic colors -- switch for Light Theme
+# Dark Theme SWAP colors -- switch for Light Theme
 #
  18  18  18 #121212	Swap-DarkTheme-Background
  91  91 125 #5B5B7D	Swap-DarkTheme-Accent
@@ -14,10 +14,15 @@ Columns: 6
 229 229 246 #E5E5F6	Swap-DarkTheme-Basic-Stroke
 250 159	  0 #FA9F00	Swap-DarkTheme-ActionAmber
  86 105	 91 #56695B	Swap-DarkTheme-SegmentationAndLabelGridGreen
+147 242	 24 #93f218 	Swap-DarkTheme-GlyphGreen
+255 204	  0 #ffcc00 	Swap-DarkTheme-GlyphYellow
+255 174	 76 #ffae4c 	Swap-DarkTheme-GlyphOrange
+255 119	  9 #ff7709 	Swap-DarkTheme-GlyphRedOrange
+254  89	 89 #fe5959 	Swap-DarkTheme-GlyphRed
 
 
 #
-# Light Theme Basic colors -- switch for Dark Theme
+# Light Theme SWAP colors -- switch for Dark Theme
 #
 255 255 255 #FFFFFF	Swap-LightTheme-Background
 184 184 255 #b8b8ff	Swap-LightTheme-Accent
@@ -25,9 +30,15 @@ Columns: 6
   0   0   0 #000000	Swap-LightTheme-Basic-Stroke
 237 136	  0 #ED8800	Swap-LightTheme-ActionAmber
 115 140	121 #738C79	Swap-LightTheme-SegmentationAndLabelGridGreen
+108 180	 15 #6cb40f    	Swap-LightTheme-GlyphGreen
+219 175	  0 #dbaf00    	Swap-LightTheme-GlyphYellow
+254 165	 44 #fea52c    	Swap-LightTheme-GlyphOrange
+254 103	  0 #fe6700    	Swap-LightTheme-GlyphRedOrange
+253 20	 51 #fd1433    	Swap-LightTheme-GlyphRed
+
 
 #
-# Pass-Through colors, --used by all themes.
+# GLOBAL PASS-THROUGH colors, -- use with all themes, no swapping.
 #
 253  89  89 #FD5959	Global-MarkupsMarkerRed
 171 212 181 #ABD4B5	Global-SegmentationPrimaryFillGreen
@@ -43,7 +54,7 @@ Columns: 6
 178 178 178 #B2B2B2	Global-Grey70Percent
 204 204	204 #CCCCCC	Global-Grey80Percent
 229 229	229 #E5E5E5	Global-Grey90Percent
-254 255 255 #feffff	Global-White
+254 255 255 #feffff	Global-SharedWhite
   1   1   1 #010101	Global-SharedBlack
 247 206  99 #F7ce63	Global-SliceViewerYellow
 237 114 108 #ED726c	Global-SliceViewerRed
@@ -52,13 +63,7 @@ Columns: 6
 134 134	206 #8686ce	Global-ThreeDViewerStrokeBlue
 214 214 255 #D6D6ff	Global-ThreeDViewerFillBlue
 152 153	213 #9899D5	Global-GreyBlue
-229 229 229 #E5E5E5	Global-SliceViewerLightGrey
-191 191 191 #BFBFBF	Global-SliceViewerGrey
-164 197 172 #A4C5AC	Global-SegmentEditorModuleGreen
- 20 204	 66 #14CC42	Global-SegmentationAndLabelOutlineGreen
-213  63  55 #D53F37	Global-ErrorMessageRed
-247 206  99 #F7ce63	Global-WarningMessageYellow
-142 213 149 #8ED595	Global-ConfirmMessageGreen
-115 150 223 #7396DF	Global-InformationMessageBlue
+115 150 223 #7396DF	Global-NiceBlue
+213  63  55 #D53F37	Global-DarkRed
 
 
