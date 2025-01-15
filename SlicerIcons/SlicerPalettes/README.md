@@ -2,7 +2,7 @@
 
 This file contains information about the Slicer Icon Palette.
 
- **SLICER SIMPLE PALETTE (newest addition):** Has a set of only 11 "SWAP" colors that switch between dark and light themes and a limited set of "GLOBAL" colors that are used across themes -- no changes required. Additional global or swap colors can be added by module authors, and should be chosen:
+ **SLICER SIMPLE PALETTE:** Has a set of 11 "SWAP" colors that switch between dark and light themes and a limited set of "GLOBAL" colors that are used across themes -- no changes required. Additional global or swap colors can be added by module authors, and should be chosen:
  
 * to have good appearance in both themes, and
 * to NOT duplicate colors already in the palette.
