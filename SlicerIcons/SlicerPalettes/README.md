@@ -18,24 +18,19 @@ This file contains information about the Slicer Icon Palette.
 # The image of the color palette table above (which can be generated from the csv or tsv files).
 
 ###  Where to find Slicer Icon Palettes:
-Slicer Icon Palettes are provided in Gimp Palette format (.gpl)  https://developer.gimp.org/core/standards/gpl/  and in csv and tsv files. The palette directory and file can be found here:
+Slicer Icon Palette are provided in Gimp Palette format (.gpl)  https://developer.gimp.org/core/standards/gpl/  and in csv and tsv files. The palette directory and file can be found here:
 
-github: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes
-
-Simple Palette**
-../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl
-
-
-
+* github: Slicer/slicer-media-assets/SlicerIcons/SlicerPalettes
+* Simple Palette: ../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerSimplePalette.gpl
 
 Combined palettes in csv and tsv are also available.
- **SlicerPalettes combined CSV file**
-../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPalettesCSV.csv
- **SlicerPalettes combined TSV file**
-../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPalettesCSV.tsv 
+
+ * csv: ../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPalettesCSV.csv
+ 
+ * tsv: ../slicer-media-assets/SlicerIcons/SlicerPalettes/SlicerPalettesCSV.tsv 
 
 ### How to use Palettes in Inkscape
-The Gimp Palette format (.gpl) files can be imported into Inkscape. Copying the palettes into Inkscape's palettes directory (for instance: Inkscape/Contents/Resources/share/inkscape/palettes, tho this will vary with version and platform) will make them selectable from the palettes menu. 
+The Gimp Palette format (.gpl) files can be imported into Inkscape. Copying the palettes into Inkscape's palettes directory  (for instance: Inkscape/Contents/Resources/share/inkscape/palettes, though this location will vary with version and platform) will make them selectable from the palettes menu. 
 
 
 
