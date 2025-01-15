@@ -7,8 +7,7 @@ This file contains information about the Slicer Icon Palette.
 <img src="https://github.com/user-attachments/assets/b20b284c-8b09-48e4-a4ab-f35e7a5c78dc" width="600">
 
 ** NOTE: Adding new custom colors for icons may require updates to the the following items:
-        -SlicerCustomPalette.gpl,csv,tsv, or
-	-SlicerSimplePalette.gpl,csv,tsv, and
+	-SlicerSimplePalette.gpl,csv,tsv files, and
         -This README file.
 
 ###  Where to find Slicer Icon Palettes:
