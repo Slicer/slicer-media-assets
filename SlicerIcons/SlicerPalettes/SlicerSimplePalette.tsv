@@ -1,34 +1,37 @@
-SlicerSimplePalette	ColorName		DarkTheme		LightTheme
-SIMPLE (swap)	Swap-Background		#121212		#FFFFFF
-SIMPLE (swap)	Swap-Basic-Stroke		#E5E5F6		#000000
-SIMPLE (swap)	Swap-Accent		#5b5b7d		#B8B8FF
-SIMPLE (swap)	Swap-Accent-Fill		#99A2E3		#E5E5FF
-SIMPLE (swap)	Swap-ActionAmber		#FA9F00		#ED8800
-SIMPLE (global)	MarkupsMarkerRed		#FD5959		#FD5959
-SIMPLE (swap)	SegmentationAndLabelGridGreen		#56695B		#738C79
-SIMPLE (global)	SegmentationPrimaryFillGreen		#abd4b5		#abd4b5
-SIMPLE (global)	SegmentationAndLabelOutlineGreen		#14CC42		#14CC42
-SIMPLE (global)	SegmentationPrimaryDirectActionGreen		#28b84d		#28b84d
-SIMPLE (global)	SegmentationSecondaryFillYellow		#f9e883		#f9e883
-SIMPLE (global)	SegmentationSeondaryOutlineYellow		#d1a718		#d1a718
-SIMPLE (global)	Global-SharedBlack		#010101		#010101
-SIMPLE (global)	Global-Grey90Percent		#E5E5E5		#E5E5E5
-SIMPLE (global)	Global-Grey80Percent		#CCCCCC		#CCCCCC
-SIMPLE (global)	Global-Grey70Percent		#B2B2B2		#B2B2B2
-SIMPLE (global)	Global-Grey60Percent		#989898		#989898
-SIMPLE (global)	Global-Grey50Percent		#808080		#808080
-SIMPLE (global)	Global-Grey40Percent		#666666		#666666
-SIMPLE (global)	Global-Grey30Percent		#4d4d4d		#4d4d4d
-SIMPLE (global)	Global-Grey20Percent		#333333		#333333
-SIMPLE (global)	Global-White		#FFFFFF		#FFFFFF
-SIMPLE (global)	Global-SliceViewerYellow		#F7ce63		#F7ce63
-SIMPLE (global)	Global-SliceViewerRed		#ED726C		#ED726C
-SIMPLE (global)	Global-SliceViewerGreen		#8ED595		#8ED595
-SIMPLE (global)	Global-ThreeDViewerFillBlue		#D6D6FF		#D6D6FF
-SIMPLE (global)	Global-ThreeDViewerStrokeBlue		#9899D5		#9899D5
-SIMPLE (global)	Global-CompareViewerOrange		#F1A16E		#F1A16E
-SIMPLE (global)	Global-SliceViewerGrey		#BFBFBF		#BFBFBF
-SIMPLE (global)	Global-ErrorMessageRed		#D53F37		#D53F37
-SIMPLE (global)	Global-WarningMessageYellow		#F7ce63		#F7ce63
-SIMPLE (global)	Global-ConfirmMessageGreen		#8ED595		#8ED595
-SIMPLE (global)	Global-InformationMessageBlue		#7396DF		#7396DF
+COLOR TYPE	COLOR NAME		THEME=DARK		THEME=LIGHT
+SWAP	Swap-Theme-Background		#121212		#FFFFFF
+SWAP	Swap-Theme-Accent		#5B5B7D		#b8b8ff
+SWAP	Swap-Theme-Accent-Fill		#99A2E3		#E5E5FF
+SWAP	Swap-Theme-Basic-Stroke		#E5E5F6		#000000
+SWAP	Swap-Theme-ActionAmber		#FA9F00		#ED8800
+SWAP	Swap-Theme-SegmentationAndLabelGridGreen		#56695B		#738C79
+SWAP	Swap-Theme-GlyphGreen		#93f218		#6cb40f
+SWAP	Swap-Theme-GlyphYellow		#ffcc00		#dbaf00
+SWAP	Swap-Theme-GlyphOrange		#ffae4c		#fea52c
+SWAP	Swap-Theme-GlyphRedOrange		#ff7709		#fe6700
+SWAP	Swap-Theme-GlyphRed		#fe5959		#fd1433
+GLOBAL	Global-MarkupsMarkerRed		#FD5959		#FD5959
+GLOBAL	Global-SegmentationPrimaryFillGreen		#ABD4B5		#ABD4B5
+GLOBAL	Global-SegmentationAndLabelOutlineGreen		#14CC42		#14CC42
+GLOBAL	Global-SegmentationPrimaryDirectActionGreen		#28B84D		#28B84D
+GLOBAL	Global-SegmentationSecondaryFillYellow		#ffdd79		#ffdd79
+GLOBAL	Global-SegmentationSecondaryOutlineYellow		#D1A718		#D1A718
+GLOBAL	Global-Grey20Percent		#333333		#333333
+GLOBAL	Global-Grey30Percent		#4d4d4d		#4d4d4d
+GLOBAL	Global-Grey40Percent		#666666		#666666
+GLOBAL	Global-Grey50Percent		#808080		#808080
+GLOBAL	Global-Grey60Percent		#989898		#989898
+GLOBAL	Global-Grey70Percent		#B2B2B2		#B2B2B2
+GLOBAL	Global-Grey80Percent		#CCCCCC		#CCCCCC
+GLOBAL	Global-Grey90Percent		#E5E5E5		#E5E5E5
+GLOBAL	Global-SharedWhite		#feffff		#feffff
+GLOBAL	Global-SharedBlack		#010101		#010101
+GLOBAL	Global-SliceViewerYellow		#F7ce63		#F7ce63
+GLOBAL	Global-SliceViewerRed		#ED726c		#ED726c
+GLOBAL	Global-SliceViewerGreen		#8ED595		#8ED595
+GLOBAL	Global-CompareViewerOrange		#F1A16E		#F1A16E
+GLOBAL	Global-ThreeDViewerStrokeBlue		#8686ce		#8686ce
+GLOBAL	Global-ThreeDViewerFillBlue		#D6D6ff		#D6D6ff
+GLOBAL	Global-GreyBlue		#9899D5		#9899D5
+GLOBAL	Global-NiceBlue		#7396DF		#7396DF
+GLOBAL	Global-DarkRed		#D53F37		#D53F37
