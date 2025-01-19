@@ -1,4 +1,4 @@
-# Slicer Segment Editor Module Icons
+# SlicerIHEviewer Module Icons
 
 Below is a current snapshot of icons for a future IHE radiology compliant module. Image below shows IHE specifications for the visual symbols compliant software should refelct, and a draft set of Slicer icons for such a module.
 
