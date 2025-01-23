@@ -1,65 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="48"
-   height="48"
-   viewBox="0 0 48 48"
-   version="1.1"
-   id="svg1"
-   xml:space="preserve"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   sodipodi:docname="SlicerHourglassTopFull.svg"
-   inkscape:export-filename="../../../../Users/wenples/Desktop/zz-48.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#111111"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="8.9932958"
-     inkscape:cx="27.965276"
-     inkscape:cy="13.676855"
-     inkscape:window-width="1392"
-     inkscape:window-height="762"
-     inkscape:window-x="48"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="LightThemeEnbledLayer"
-     showguides="true"><inkscape:grid
-       id="grid1"
-       units="px"
-       originx="0"
-       originy="0"
-       spacingx="2"
-       spacingy="2"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="1"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" /></sodipodi:namedview><defs
-     id="defs1" /><g
-     id="LightThemeEnbledLayer"
-     inkscape:groupmode="layer"
-     inkscape:label="EnabledLayer"
-     style="display:inline"
-     sodipodi:insensitive="true"><g
-       style="fill:#000000"
-       id="g4"
-       transform="matrix(0.05,0,0,0.05,0,48)"><path
-         d="m 312.31,-160 h 335.38 v -120 q 0,-70.62 -48.54,-120.69 -48.53,-50.08 -119.15,-50.08 -70.62,0 -119.15,50.08 -48.54,50.07 -48.54,120.69 z M 200,-120 v -40 h 72.31 v -120 q 0,-74.08 45.42,-131.42 45.42,-57.35 116.42,-68.58 -71,-12 -116.42,-68.96 Q 272.31,-605.92 272.31,-680 V -800 H 200 v -40 h 560 v 40 h -72.31 v 120 q 0,74.08 -45.42,131.04 -45.42,56.96 -116.42,68.96 71,11.23 116.42,68.58 45.42,57.34 45.42,131.42 v 120 H 760 v 40 z"
-         id="path1-0" /></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" version="1.1" id="svg1" xml:space="preserve">
+  <defs id="defs1"/>
+  <g id="LightThemeEnbledLayer" style="display:inline">
+    <g style="fill:#000000" id="g4" transform="matrix(0.05,0,0,0.05,0,48)">
+      <path d="m 312.31,-160 h 335.38 v -120 q 0,-70.62 -48.54,-120.69 -48.53,-50.08 -119.15,-50.08 -70.62,0 -119.15,50.08 -48.54,50.07 -48.54,120.69 z M 200,-120 v -40 h 72.31 v -120 q 0,-74.08 45.42,-131.42 45.42,-57.35 116.42,-68.58 -71,-12 -116.42,-68.96 Q 272.31,-605.92 272.31,-680 V -800 H 200 v -40 h 560 v 40 h -72.31 v 120 q 0,74.08 -45.42,131.04 -45.42,56.96 -116.42,68.96 71,11.23 116.42,68.58 45.42,57.34 45.42,131.42 v 120 H 760 v 40 z" id="path1-0"/>
+    </g>
+  </g>
+</svg>
