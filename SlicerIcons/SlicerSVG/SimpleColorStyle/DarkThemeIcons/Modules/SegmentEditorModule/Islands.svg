@@ -1,113 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="48"
-   height="48"
-   viewBox="0 0 48 48"
-   version="1.1"
-   id="svg1"
-   xml:space="preserve"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   sodipodi:docname="Islands.svg"
-   inkscape:export-filename="../../../../../../../Desktop/m-48.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#111111"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="7.1217495"
-     inkscape:cx="26.749045"
-     inkscape:cy="23.098257"
-     inkscape:window-width="1440"
-     inkscape:window-height="763"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer4"
-     showguides="true"><inkscape:grid
-       id="grid1"
-       units="px"
-       originx="0"
-       originy="0"
-       spacingx="1"
-       spacingy="1"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="2"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" /><inkscape:grid
-       id="grid2"
-       units="px"
-       originx="20"
-       originy="20"
-       spacingx="40"
-       spacingy="40"
-       empcolor="#cd0000"
-       empopacity="0.30196078"
-       color="#e5001a"
-       opacity="0.14901961"
-       empspacing="40"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" /></sodipodi:namedview><defs
-     id="defs1"><inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 24 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="48 : 24 : 1"
-       inkscape:persp3d-origin="24 : 16 : 1"
-       id="perspective8" /><inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 24 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="48 : 24 : 1"
-       inkscape:persp3d-origin="24 : 16 : 1"
-       id="perspective8-2" /></defs><g
-     inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="EnabledLayer"
-     sodipodi:insensitive="true"><path
-       id="path46"
-       style="fill:#abd3b5;fill-opacity:0.898749;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:label="mask"
-       d="M 21.457895,5 V 21.421053 H 5.0588923 L 5.0368423,44 H 32.13198 44.036842 V 29.631579 5 Z M 26.1,26 H 34 v 8 h -8 z"
-       sodipodi:nodetypes="cccccccccccccc" /><path
-       style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 32,25.050091 h 3 v 3"
-       id="path6" /><path
-       style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 35,32 v 3 h -3"
-       id="path7" /><path
-       style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 28,35 H 25 V 32"
-       id="path8" /><path
-       style="fill:none;stroke:#738c79;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="M 5,44 5.0214849,21 H 21 V 5 h 23"
-       id="path1"
-       sodipodi:nodetypes="ccccc" /><rect
-       style="fill:#feffff;fill-rule:evenodd"
-       id="rect1"
-       width="8"
-       height="8"
-       x="26"
-       y="26" /><path
-       style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 28,25 h -3 v 3"
-       id="path2" /></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" version="1.1" id="svg1" xml:space="preserve">
+  <defs id="defs1"/>
+  <g id="layer4">
+    <path id="path46" style="fill:#abd3b5;fill-opacity:0.898749;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" d="M 21.457895,5 V 21.421053 H 5.0588923 L 5.0368423,44 H 32.13198 44.036842 V 29.631579 5 Z M 26.1,26 H 34 v 8 h -8 z"/>
+    <path style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" d="m 32,25.050091 h 3 v 3" id="path6"/>
+    <path style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" d="m 35,32 v 3 h -3" id="path7"/>
+    <path style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" d="M 28,35 H 25 V 32" id="path8"/>
+    <path style="fill:none;stroke:#738c79;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" d="M 5,44 5.0214849,21 H 21 V 5 h 23" id="path1"/>
+    <rect style="fill:#feffff;fill-rule:evenodd" id="rect1" width="8" height="8" x="26" y="26"/>
+    <path style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" d="m 28,25 h -3 v 3" id="path2"/>
+  </g>
+</svg>
