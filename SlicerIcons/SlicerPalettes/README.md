@@ -1,4 +1,4 @@
-## Slicer Icon Color Palettes
+## Slicer Icon Color Palette
 
 This file contains information about the Slicer Icon Palette.
 
