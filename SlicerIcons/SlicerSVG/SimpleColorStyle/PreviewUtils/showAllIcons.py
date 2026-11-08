@@ -58,7 +58,8 @@ if theme=="D" or theme=="d":
     
 #---- Include Design Guidelines at document top.
 fileout = open(fileName, "w")
-designGuidelines = pStyleText + "1. Design 3D Slicer icons as vector images on a transparent background. Reuse existing Slicer symbols for data and concepts, symbolic colors and other UI patterns where appropriate.\n</p>"
+designGuidelines = pStyleText + "Slicer's icon style is based on and incorporates some of Google's Material Symbols. New icons should harmonize with Material Symbols (Apache License Version 2.0) and Slicer's color palette, and should follow the guidelines below:\n</p>"
+designGuidelines += pStyleText + "1. Design 3D Slicer icons as vector images on a transparent background. Reuse existing Slicer symbols for data and concepts, symbolic colors and other UI patterns where appropriate.\n</p>"
 designGuidelines += pStyleText + "2. At 24x24 pixel resolution, stroke width should be 1dp = 1px for pixel-perfect rendering at resolution multiples of 24. Most of 3D Slicer's icons are designed at 200% scale, at 48x48 pixel resolution, with 1dp=2px.\n</p>"
 designGuidelines += pStyleText + "3. Use simple stroked elements without fill where possible. Stroke caps and corners can be sharp or rounded with r = dp/2.\n</p>"
 designGuidelines += pStyleText + "4. If filled elements are required, use limited color, preferably from Slicer's SimpleColorPalette, consistently across your UI, compatibly with 3D Slicer's application UI. Ensure the fill color works well in both Dark and Light themes.\n</p>"
